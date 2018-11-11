@@ -476,11 +476,7 @@
 } 
 
 
- @media only screen and (max-width: 1024px) {
-    #nav.menu--active {
-        width: 100vw;
-    }
-}
+
 
 #blog-post-hero > .hero-body {
     padding-bottom: 6rem;
@@ -545,3 +541,16 @@
     color: inherit;
 }
 
+
+
+@media only screen and (max-width: 1024px) {
+    #nav.menu--active {
+        width: 100vw;
+    }
+
+    .blog-content-card {
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 0px !important;
+    }
+}
