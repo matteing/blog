@@ -4,7 +4,7 @@ date: 2018-11-11T05:08:18-04:00
 tags: []
 categories: []
 
-draft: true
+draft: false
 tagline: "In today's digital world, make sure you aren't treated as a data point."
 cover: "https://images.unsplash.com/photo-1501526029524-a8ea952b15be?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=421f505f518e3cfac7ae1e0492c27aac&auto=format&fit=crop&w=1350&q=80"
 ---

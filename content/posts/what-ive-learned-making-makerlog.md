@@ -4,7 +4,7 @@ date: 2018-11-11T05:11:22-04:00
 tags: []
 categories: []
 
-draft: true
+draft: false
 tagline: "Before you click away, hold on, I've got a point to make."
 cover: "https://images.unsplash.com/photo-1541672412522-693276f0c20f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=157058353c224c651568695bac0f00bc&auto=format&fit=crop&w=1489&q=80"
 ---
