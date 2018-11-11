@@ -3,6 +3,48 @@
     {{- partial "head.html" . -}}
     <body id="body">
         <div id="header-image"></div>
+        <span id="fader"></span>
+        <div class="column is-one-fifth menu" id="nav" data-menu>
+                <span id="close-button" data-trigger><i class="fas fa-times" aria-hidden="true"></i></span>
+                <div id="nav-content">
+                    <img src="https://sergiomattei.com/assets/img/Arkus-Fatter.png" />
+                    <p class="subtitle social-icons">
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Ideas
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Resumé
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="subtitle social-icons">
+                        <a href="https://getmakerlog.com/@sergio" class="undecorated" target="_blank">
+                            <i class="fas fa-check-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://github.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://twitter.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
         <div id="main-column">
             <div class="container">
                 {{- partial "header.html" . -}}
