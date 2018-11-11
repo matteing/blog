@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <h2 class="subtitle is-6 has-text-grey" style="margin-top: 20px; font-style: italic;">Thoughts I write
+            down...</h2>
+    {{ range first 7 .Pages }}
+        {{ if eq .Type "posts"}}
+            {{- partial "post_card.html" . -}}
+        {{ end }}
+    {{ end }}
+{{ end }}

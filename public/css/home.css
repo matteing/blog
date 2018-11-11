@@ -1,0 +1,36 @@
+
+ #me-media h1 {
+     font-size: 2em;
+}
+ #me-media small {
+     color: gray;
+     font-size: 1.5em;
+     font-family: 'PT Sans', sans-serif;
+}
+ #me-media img {
+     margin-top: 30px;
+}
+ #me-media p {
+     font-weight: 200;
+}
+ #me-media .media-content {
+     padding: 20px;
+}
+ .undecorated {
+     text-decoration: none;
+     color: inherit;
+}
+
+
+ #projects-level {
+}
+ #projects-level img {
+     height: 50px;
+}
+ #projects-level img.smaller {
+     padding: 5px;
+}
+ #projects img {
+     padding: 5px;
+     height: 50px;
+}

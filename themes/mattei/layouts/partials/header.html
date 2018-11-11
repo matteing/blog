@@ -1,0 +1,36 @@
+<div id="header-hero">
+    <div class="level">
+        <div class="level-left">
+            <div class="level-item" style="margin-right: 30px;">
+                <p class="image is-64x64">
+                    <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
+                </p>
+            </div>
+            <div class="level-item">
+                {{ if .IsPage }}
+                    <h1 class="title is-3 has-text-white">
+                        <b>Sergio Mattei's Blog</b> <br />
+                        <span class="subtitle has-text-white">Thoughts,
+                            essays, and more.</span>
+                    </h1>
+                {{ else }}
+                    <h1 class="title is-3">
+                        <b>Hey, I'm Sergio Mattei.</b> <br />
+                        <span class="has-text-grey">Software developer and entrepreneur.</span>
+                    </h1>
+                {{ end }}
+            </div>
+
+        </div>
+        <div class="level-right">
+            <div class="level-item">
+                <!-- <a href="https://twitter.com/matteing?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                                        data-size="large" data-show-screen-name="false" data-show-count="false">Follow @matteing</a>
+                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                <button class="button is-text is-large {{ if .IsPage }}has-text-white{{ end }}" data-trigger>
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
