@@ -99,7 +99,11 @@
             <div class="card-content" id="blog-post">
                 {{ if .Draft }}<center class="has-text-grey">🚧  This post is a draft. I'm still writing it! 🚧<br /> Let me know your thoughts by <a href="https://twitter.com/matteing">tweeting at me.</a><hr /></center>{{ end }}
                 <div class="content">
-                    {{ .Content }}
+                    {{ if .Content }}
+                        {{ .Content }}
+                    {{ else }}
+                        <img src="https://i1.wp.com/codemyui.com/wp-content/uploads/2015/06/imessage-typing-indicator-in-css.gif?fit=880%2C440&ssl=1" />
+                    {{ end }}
                 </div>
             </div>
         </div>
