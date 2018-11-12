@@ -11,13 +11,13 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-<link rel="stylesheet" href="https://mattei.localtunnel.me/css/bulma.css">
-<link rel="stylesheet" href="https://mattei.localtunnel.me/css/global.css" />
-<link rel="stylesheet" href="https://mattei.localtunnel.me/css/animate.css" />
+<link rel="stylesheet" href="https://mattei.netlify.com/css/bulma.css">
+<link rel="stylesheet" href="https://mattei.netlify.com/css/global.css" />
+<link rel="stylesheet" href="https://mattei.netlify.com/css/animate.css" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet"><meta property="og:title" content="Hello" />
 <meta property="og:description" content="Hello world What&rsquo;s up!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mattei.localtunnel.me/posts/hello/" /><meta property="article:published_time" content="2018-11-11T02:07:48-04:00"/>
+<meta property="og:url" content="https://mattei.netlify.com/posts/hello/" /><meta property="article:published_time" content="2018-11-11T02:07:48-04:00"/>
 <meta property="article:modified_time" content="2018-11-11T02:07:48-04:00"/>
 
 <meta itemprop="name" content="Hello">
@@ -31,29 +31,74 @@
 
 
 <meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hello"/>
-<meta name="twitter:description" content="Hello world What&rsquo;s up!"/>
+
+    <meta name="twitter:description" content="Hello world What&rsquo;s up!" />
+    <meta name="twitter:title" content="Hello" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="" /> 
 <body id="body">
         <div id="header-image"></div>
+        <span id="fader"></span>
+        <div class="column is-one-fifth menu" id="nav" data-menu>
+                <span id="close-button" data-trigger><i class="fas fa-times" aria-hidden="true"></i></span>
+                <div id="nav-content">
+                    <img src="https://sergiomattei.com/assets/img/Arkus-Fatter.png" />
+                    <p class="subtitle social-icons">
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Ideas
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Resumé
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="subtitle social-icons">
+                        <a href="https://getmakerlog.com/@sergio" class="undecorated" target="_blank">
+                            <i class="fas fa-check-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://github.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://twitter.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
         <div id="main-column">
             <div class="container"><div id="header-hero">
-    <div class="level">
+    <div class="level is-mobile">
         <div class="level-left">
-            <div class="level-item" style="margin-right: 30px;">
+            <a href="/" class="level-item" style="margin-right: 30px;">
                 <p class="image is-64x64">
                     <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
                 </p>
-            </div>
-            <div class="level-item">
+            </a>
+            <a href="/" class="level-item">
                 
                     <h1 class="title is-3 has-text-white">
-                        <b>Sergio Mattei's Blog</b> <br />
-                        <span class="subtitle has-text-white">Thoughts,
-                            essays, and more.</span>
+                        <b>Sergio Mattei's Blog</b>
+                        <span class="has-text-lighter has-text-white is-hidden-mobile" style="font-weight: 300;">
+                                <br /> Thoughts, essays, and more.
+                        </span>
                     </h1>
                 
-            </div>
+            </a>
 
         </div>
         <div class="level-right">
@@ -66,9 +111,10 @@
         </div>
     </div>
 </div>
+
     <style>
         #header-image {
-            position: absolute;
+            position: fixed;
             z-index: 0;
             top: 0;
             left: 0;
@@ -76,7 +122,7 @@
             
                 background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
             
-            background-size: 100% auto;
+            background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
             height: 100%;
@@ -86,44 +132,64 @@
             position: absolute;
             content: " ";
             top: 0;
-            background: rgb(0,0,0);
-            background: linear-gradient(180deg, rgba(0,0,0,0.4822303921568627) 0%, rgba(250,250,250,1) 100%);
+            background: rgba(0,0,0, 0.5);
             width: 100%;
             height: 100%;
         }
     </style>
     
-    <section class="hero" id="blog-post-hero">
+    <section class="hero is-medium" id="blog-post-hero">
         <div class="hero-body">
-            <div class="container has-text-centered">
+            <span class="container has-text-centered">
                 <h1 class="title is-2 has-text-white">
                     Hello
                 </h1>
-                <small>
-                    <span class=" has-text-white">
-                        <i class="fas fa-clock"></i>&nbsp;  1 minute read
-                    </span> &nbsp;&nbsp;&nbsp;
-                    <span class="has-text-white">
-                        <i class="fas fa-calendar"></i>&nbsp; Sunday, November 11, 2018
-                    </span>
-                </small>
+                <h2 class="subtitle  has-text-white">
+                        
+                    </h2>
+                <center><a data-size="large" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
             </div>
         </div>
     </section>
     
-    <div class="card" style="border-radius: 10px; box-shadow: none;" id="blog-content-card">
-        <div class="card-content" id="blog-post">
-            <div class="content">
-                
+    <div class="container">
+        <div class="card blog-content-card">
+            <div class="card-content" id="blog-post">
+                <div class="content">
+                    
 
 <h3 id="hello-world">Hello world</h3>
 
 <p>What&rsquo;s up!</p>
 
+                </div>
+            </div>
+        </div>
+
+        <div class="card blog-content-card intro-card">
+            <div class="card-content">
+                    <article class="media" id="me-media">
+                            <figure class="media-left is-hidden-touch">
+                                <p class="image is-64x64">
+                                    <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <h1 class="title is-4">
+                                Thanks for reading!
+                                </h1>
+                                <p class="subtitle is-6">
+                                    I'm passionate about maker culture, technology, and life.<br /> Follow me on Twitter to stay in the loop on my latest creations and writings!
+                                </p>
+                                <p>
+                                        <a href="https://twitter.com/matteing?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @matteing</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </p>
+                            </div>
+                        </article>
             </div>
         </div>
     </div>
 
             </div>
-        </div><script src="https://mattei.localtunnel.me/js/global.js"></script></body>
+        </div><script src="https://mattei.netlify.com/js/global.js"></script></body>
 </html>

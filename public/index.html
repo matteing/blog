@@ -11,40 +11,82 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-<link rel="stylesheet" href="https://mattei.localtunnel.me/css/bulma.css">
-<link rel="stylesheet" href="https://mattei.localtunnel.me/css/global.css" />
-<link rel="stylesheet" href="https://mattei.localtunnel.me/css/animate.css" />
+<link rel="stylesheet" href="https://mattei.netlify.com/css/bulma.css">
+<link rel="stylesheet" href="https://mattei.netlify.com/css/global.css" />
+<link rel="stylesheet" href="https://mattei.netlify.com/css/animate.css" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet"><meta property="og:title" content="Sergio Mattei" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mattei.localtunnel.me/" />
-<meta property="og:updated_time" content="2018-11-11T03:19:28-04:00"/>
+<meta property="og:url" content="https://mattei.netlify.com/" />
+<meta property="og:updated_time" content="2018-11-11T05:11:22-04:00"/>
 
 <meta itemprop="name" content="Sergio Mattei">
 <meta itemprop="description" content="">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Sergio Mattei"/>
-<meta name="twitter:description" content=""/>
+
+    <meta name="twitter:title" content="Sergio Mattei" />
+    <meta name="twitter:description" content="" /> 
 <body id="body">
         <div id="header-image"></div>
+        <span id="fader"></span>
+        <div class="column is-one-fifth menu" id="nav" data-menu>
+                <span id="close-button" data-trigger><i class="fas fa-times" aria-hidden="true"></i></span>
+                <div id="nav-content">
+                    <img src="https://sergiomattei.com/assets/img/Arkus-Fatter.png" />
+                    <p class="subtitle social-icons">
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Ideas
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Resumé
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="subtitle social-icons">
+                        <a href="https://getmakerlog.com/@sergio" class="undecorated" target="_blank">
+                            <i class="fas fa-check-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://github.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://twitter.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
         <div id="main-column">
             <div class="container"><div id="header-hero">
-    <div class="level">
+    <div class="level is-mobile">
         <div class="level-left">
-            <div class="level-item" style="margin-right: 30px;">
+            <a href="/" class="level-item" style="margin-right: 30px;">
                 <p class="image is-64x64">
                     <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
                 </p>
-            </div>
-            <div class="level-item">
+            </a>
+            <a href="/" class="level-item">
                 
                     <h1 class="title is-3">
-                        <b>Hey, I'm Sergio Mattei.</b> <br />
-                        <span class="has-text-grey">Software developer and entrepreneur.</span>
+                        <b>Hey, I'm Sergio Mattei.</b>
+                        <span class="has-text-grey  is-hidden-mobile"> <br />Software developer and entrepreneur.</span>
                     </h1>
                 
-            </div>
+            </a>
 
         </div>
         <div class="level-right">
@@ -57,14 +99,39 @@
         </div>
     </div>
 </div>
+
     <h2 class="subtitle is-6 has-text-grey" style="margin-top: 20px; font-style: italic;">Thoughts I write
             down...</h2>
     
         <div class="tile is-parent">
     <a 
-        href="https://mattei.localtunnel.me/posts/how-opsbot-simplifies-devops-for-indie-makers/" 
+        href="https://mattei.netlify.com/posts/what-ive-learned-making-makerlog/" 
         class="blog-tile tile is-child" 
-        style="background-image: url(https://images.unsplash.com/photo-1539894195239-8435fe127309?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=d8c884e4ee62e69b5211af86fe9df941&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80)">
+        style="background-image: url(https://images.unsplash.com/photo-1541672412522-693276f0c20f?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=157058353c224c651568695bac0f00bc&amp;auto=format&amp;fit=crop&amp;w=1489&amp;q=80)">
+        <div>
+            <h3 class="title is-3">Improve yourself by not improving yourself.</h3>
+            <h5 class="subtitle is-8">Before you click away, hold on, I&#39;ve got a point to make.</h5>
+        </div>
+    </a>
+</div>
+    
+        <div class="tile is-parent">
+    <a 
+        href="https://mattei.netlify.com/posts/you-are-not-a-product/" 
+        class="blog-tile tile is-child" 
+        style="background-image: url(https://images.unsplash.com/photo-1501526029524-a8ea952b15be?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=421f505f518e3cfac7ae1e0492c27aac&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80)">
+        <div>
+            <h3 class="title is-3">You aren&#39;t a product. You are a human.</h3>
+            <h5 class="subtitle is-8">In today&#39;s digital world, make sure you aren&#39;t treated as a data point.</h5>
+        </div>
+    </a>
+</div>
+    
+        <div class="tile is-parent">
+    <a 
+        href="https://mattei.netlify.com/posts/how-opsbot-simplifies-devops-for-indie-makers/" 
+        class="blog-tile tile is-child" 
+        style="background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=3f6e5055d9ad1d603fd364c11823d026)">
         <div>
             <h3 class="title is-3">How Opsbot simplifies DevOps for indie makers</h3>
             <h5 class="subtitle is-8">Don&#39;t suffer DevOps. Hire a robot.</h5>
@@ -74,7 +141,7 @@
     
         <div class="tile is-parent">
     <a 
-        href="https://mattei.localtunnel.me/posts/new-post/" 
+        href="https://mattei.netlify.com/posts/new-post/" 
         class="blog-tile tile is-child" 
         >
         <div>
@@ -86,7 +153,7 @@
     
         <div class="tile is-parent">
     <a 
-        href="https://mattei.localtunnel.me/posts/we-follow-convention-again/" 
+        href="https://mattei.netlify.com/posts/we-follow-convention-again/" 
         class="blog-tile tile is-child" 
         >
         <div>
@@ -98,7 +165,7 @@
     
         <div class="tile is-parent">
     <a 
-        href="https://mattei.localtunnel.me/posts/we-follow-convention/" 
+        href="https://mattei.netlify.com/posts/we-follow-convention/" 
         class="blog-tile tile is-child" 
         >
         <div>
@@ -110,7 +177,7 @@
     
         <div class="tile is-parent">
     <a 
-        href="https://mattei.localtunnel.me/posts/hello/" 
+        href="https://mattei.netlify.com/posts/hello/" 
         class="blog-tile tile is-child" 
         >
         <div>
@@ -122,5 +189,5 @@
     
 
             </div>
-        </div><script src="https://mattei.localtunnel.me/js/global.js"></script></body>
+        </div><script src="https://mattei.netlify.com/js/global.js"></script></body>
 </html>

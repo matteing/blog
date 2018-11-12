@@ -2,57 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sergio Mattei</title>
-    <link>https://mattei.localtunnel.me/</link>
+    <link>https://mattei.netlify.com/</link>
     <description>Recent content on Sergio Mattei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 03:19:28 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 05:11:22 -0400</lastBuildDate>
     
-	<atom:link href="https://mattei.localtunnel.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mattei.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Improve yourself by not improving yourself.</title>
+      <link>https://mattei.netlify.com/posts/what-ive-learned-making-makerlog/</link>
+      <pubDate>Sun, 11 Nov 2018 05:11:22 -0400</pubDate>
+      
+      <guid>https://mattei.netlify.com/posts/what-ive-learned-making-makerlog/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit magna, ultricies quis tortor eget, pharetra placerat turpis. Mauris aliquet ultricies orci, a eleifend magna. Sed gravida sapien magna, sed posuere mauris tincidunt vitae. Vivamus vestibulum nibh id ligula eleifend vestibulum. Suspendisse rhoncus blandit ex, a tempus leo faucibus eu. Proin accumsan pulvinar semper. Vestibulum maximus mi sed orci lacinia aliquet eget ut eros.
+Proin pellentesque velit id molestie imperdiet.</description>
+    </item>
+    
+    <item>
+      <title>You aren&#39;t a product. You are a human.</title>
+      <link>https://mattei.netlify.com/posts/you-are-not-a-product/</link>
+      <pubDate>Sun, 11 Nov 2018 05:08:18 -0400</pubDate>
+      
+      <guid>https://mattei.netlify.com/posts/you-are-not-a-product/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit magna, ultricies quis tortor eget, pharetra placerat turpis. Mauris aliquet ultricies orci, a eleifend magna. Sed gravida sapien magna, sed posuere mauris tincidunt vitae. Vivamus vestibulum nibh id ligula eleifend vestibulum. Suspendisse rhoncus blandit ex, a tempus leo faucibus eu. Proin accumsan pulvinar semper. Vestibulum maximus mi sed orci lacinia aliquet eget ut eros.
+Proin pellentesque velit id molestie imperdiet.</description>
+    </item>
+    
+    <item>
       <title>How Opsbot simplifies DevOps for indie makers</title>
-      <link>https://mattei.localtunnel.me/posts/how-opsbot-simplifies-devops-for-indie-makers/</link>
+      <link>https://mattei.netlify.com/posts/how-opsbot-simplifies-devops-for-indie-makers/</link>
       <pubDate>Sun, 11 Nov 2018 03:19:28 -0400</pubDate>
       
-      <guid>https://mattei.localtunnel.me/posts/how-opsbot-simplifies-devops-for-indie-makers/</guid>
-      <description>Don&amp;rsquo;t suffer devops.</description>
+      <guid>https://mattei.netlify.com/posts/how-opsbot-simplifies-devops-for-indie-makers/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit magna, ultricies quis tortor eget, pharetra placerat turpis. Mauris aliquet ultricies orci, a eleifend magna. Sed gravida sapien magna, sed posuere mauris tincidunt vitae. Vivamus vestibulum nibh id ligula eleifend vestibulum. Suspendisse rhoncus blandit ex, a tempus leo faucibus eu. Proin accumsan pulvinar semper. Vestibulum maximus mi sed orci lacinia aliquet eget ut eros.
+Proin pellentesque velit id molestie imperdiet. Maecenas dui nunc, pulvinar a fermentum in, vestibulum nec lacus.</description>
     </item>
     
     <item>
       <title>New Post.</title>
-      <link>https://mattei.localtunnel.me/posts/new-post/</link>
+      <link>https://mattei.netlify.com/posts/new-post/</link>
       <pubDate>Sun, 11 Nov 2018 02:36:08 -0400</pubDate>
       
-      <guid>https://mattei.localtunnel.me/posts/new-post/</guid>
+      <guid>https://mattei.netlify.com/posts/new-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>We Follow Convention Again</title>
-      <link>https://mattei.localtunnel.me/posts/we-follow-convention-again/</link>
+      <link>https://mattei.netlify.com/posts/we-follow-convention-again/</link>
       <pubDate>Sun, 11 Nov 2018 02:19:40 -0400</pubDate>
       
-      <guid>https://mattei.localtunnel.me/posts/we-follow-convention-again/</guid>
+      <guid>https://mattei.netlify.com/posts/we-follow-convention-again/</guid>
       <description></description>
     </item>
     
     <item>
       <title>We Follow Convention</title>
-      <link>https://mattei.localtunnel.me/posts/we-follow-convention/</link>
+      <link>https://mattei.netlify.com/posts/we-follow-convention/</link>
       <pubDate>Sun, 11 Nov 2018 02:18:11 -0400</pubDate>
       
-      <guid>https://mattei.localtunnel.me/posts/we-follow-convention/</guid>
+      <guid>https://mattei.netlify.com/posts/we-follow-convention/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello</title>
-      <link>https://mattei.localtunnel.me/posts/hello/</link>
+      <link>https://mattei.netlify.com/posts/hello/</link>
       <pubDate>Sun, 11 Nov 2018 02:07:48 -0400</pubDate>
       
-      <guid>https://mattei.localtunnel.me/posts/hello/</guid>
+      <guid>https://mattei.netlify.com/posts/hello/</guid>
       <description>Hello world What&amp;rsquo;s up!</description>
     </item>
     
