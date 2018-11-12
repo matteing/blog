@@ -413,6 +413,10 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
     transition: all 0.5s ease-in-out;
  }
 
+ blockquote {
+     font-style: italic;
+ }
+
  #nav.menu--active {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
