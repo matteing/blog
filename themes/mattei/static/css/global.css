@@ -577,6 +577,11 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
         padding: 10%;
         font-size: 16px;
     }
+
+    #header-hero .title {
+        font-size: 1.2rem;
+        padding-left: 10px;
+    }
 }
 
 
