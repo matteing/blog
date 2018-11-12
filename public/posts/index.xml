@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Sergio Mattei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 05:11:22 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 21:32:37 -0400</lastBuildDate>
     
 	<atom:link href="https://mattei.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making in the Apocalypse: How I shipped a SaaS after Hurricane Maria</title>
+      <link>https://mattei.netlify.com/posts/making-in-the-apocalypse/</link>
+      <pubDate>Sun, 11 Nov 2018 21:32:37 -0400</pubDate>
+      
+      <guid>https://mattei.netlify.com/posts/making-in-the-apocalypse/</guid>
+      <description>This is naturally a difficult story to tell. It involves two very hard things for me, the passing of Hurricane María and the shutdown of a previous startup. But I’m wishing to tell my story, so others can learn and be inspired by it.
+The calm I decided to include what I felt, for context.
+September 16, 2017. Caguas, Puerto Rico.
+You would’ve thought it was a normal day, until you looked at the TV monitors and noticed the panic that was going on.</description>
+    </item>
     
     <item>
       <title>Improve yourself by not improving yourself.</title>
@@ -39,42 +51,6 @@ Proin pellentesque velit id molestie imperdiet.</description>
       <guid>https://mattei.netlify.com/posts/how-opsbot-simplifies-devops-for-indie-makers/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit magna, ultricies quis tortor eget, pharetra placerat turpis. Mauris aliquet ultricies orci, a eleifend magna. Sed gravida sapien magna, sed posuere mauris tincidunt vitae. Vivamus vestibulum nibh id ligula eleifend vestibulum. Suspendisse rhoncus blandit ex, a tempus leo faucibus eu. Proin accumsan pulvinar semper. Vestibulum maximus mi sed orci lacinia aliquet eget ut eros.
 Proin pellentesque velit id molestie imperdiet. Maecenas dui nunc, pulvinar a fermentum in, vestibulum nec lacus.</description>
-    </item>
-    
-    <item>
-      <title>New Post.</title>
-      <link>https://mattei.netlify.com/posts/new-post/</link>
-      <pubDate>Sun, 11 Nov 2018 02:36:08 -0400</pubDate>
-      
-      <guid>https://mattei.netlify.com/posts/new-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>We Follow Convention Again</title>
-      <link>https://mattei.netlify.com/posts/we-follow-convention-again/</link>
-      <pubDate>Sun, 11 Nov 2018 02:19:40 -0400</pubDate>
-      
-      <guid>https://mattei.netlify.com/posts/we-follow-convention-again/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>We Follow Convention</title>
-      <link>https://mattei.netlify.com/posts/we-follow-convention/</link>
-      <pubDate>Sun, 11 Nov 2018 02:18:11 -0400</pubDate>
-      
-      <guid>https://mattei.netlify.com/posts/we-follow-convention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hello</title>
-      <link>https://mattei.netlify.com/posts/hello/</link>
-      <pubDate>Sun, 11 Nov 2018 02:07:48 -0400</pubDate>
-      
-      <guid>https://mattei.netlify.com/posts/hello/</guid>
-      <description>Hello world What&amp;rsquo;s up!</description>
     </item>
     
   </channel>
