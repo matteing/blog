@@ -1,7 +1,7 @@
 ---
 title: "Age is not a barrier. It's an advantage."
 date: 2018-11-12T01:41:05-04:00
-tags: []
+tags: ["philosophy"]
 categories: []
 
 draft: true

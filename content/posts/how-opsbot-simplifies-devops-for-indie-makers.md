@@ -1,8 +1,8 @@
 ---
 title: "How Opsbot simplifies DevOps for indie makers"
 date: 2018-11-11T03:19:28-04:00
-tags: []
-categories: []
+tags: ["development"]
+categories: ["Development"]
 
 draft: false
 tagline: "Don't suffer DevOps. Hire a robot."

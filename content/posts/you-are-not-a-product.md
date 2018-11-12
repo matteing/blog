@@ -1,7 +1,7 @@
 ---
 title: "You aren't a product. You are a human."
 date: 2018-11-11T05:08:18-04:00
-tags: []
+tags: ["philosophy"]
 categories: []
 
 draft: false

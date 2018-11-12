@@ -105,12 +105,8 @@
                         <img src="https://i1.wp.com/codemyui.com/wp-content/uploads/2015/06/imessage-typing-indicator-in-css.gif?fit=880%2C440&ssl=1" />
                     {{ end }}
                 </div>
-            </div>
-        </div>
-
-        <div class="card blog-content-card">
-            <div class="card-content" style="padding: 50px 100px 50px 100px;">
-                    <article class="media" id="me-media">
+                <hr style="margin-top: 50px;" />
+                <article class="media" id="me-media">
                         <figure class="media-left is-hidden-touch">
                             <p class="image is-64x64">
                                 <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
@@ -130,6 +126,20 @@
                     </article>
             </div>
         </div>
+
+        {{ $related := .Site.Pages.Related . | first 5 }}
+        {{ with $related }}
+            <div class="card blog-content-card">
+                <div class="card-content" style="padding: 50px 50px 50px 50px;">
+                    <h3 class="title is-3">Things you may like</h3>
+                    <ul>
+                        {{ range . }}
+                            {{- partial "post_card.html" . -}}
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        {{ end }}
     </div>
 
     <script>
