@@ -20,6 +20,15 @@ I was one of these makers.
 Over the course of these 24 hours, I shipped a product called [Opsbot](https://opsbot.app), a DevOps automation tool for indie makers. 
 Here's what I thought about the challenge.
 
+### It helped me focus
+
+This is a controversial stance, but I found that streaming work through Twitch is very helpful to my concentration. Since I was a child, I've struggled with ADD, and focusing on one task without going off on a Wikipedia browsing or YouTube watching tangent has always been hard. 
+
+But surprisingly, while streaming, I had no issue with slacking off. It's the most productive and motivated I've been in months.
+Knowing someone is watching you ship and having that constant pressure is quite helpful for my focus.
+
+I've discovered that trick now. Time to make streaming a habit. 
+
 ### The community is amazing.
 
 <center><blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/matteing?ref_src=twsrc%5Etfw">@matteing</a> did it!!!!!<br><br>🎉🎉🎉🎉🎉🎉🎉🎉<br><br>Congrats to the launch of <a href="https://t.co/4KwvHxMkrS">https://t.co/4KwvHxMkrS</a>!!!!<br><br>🎉🎉🎉🎉🎉🎉🎉🎉 <a href="https://t.co/biYAKYVewB">pic.twitter.com/biYAKYVewB</a></p>&mdash; Makers Up (@makersup) <a href="https://twitter.com/makersup/status/1063872756947681280?ref_src=twsrc%5Etfw">November 17, 2018</a></blockquote>
@@ -32,15 +41,6 @@ Everyone was extremely supportive, and the best example is debugging. Trust me, 
 Not only that, but we'd drop by each others streams and say hi. It's was such a motivating moment to see a maker you know pop up in the chat!
 
 This all comes to prove that the maker community is the most supportive community on the Internet, bar none. Without it, this challenge would've been radically different.
-
-### It helped me focus
-
-This is a controversial stance, but I found that streaming work through Twitch is very helpful to my concentration. Since I was a child, I've struggled with ADD, and focusing on one task without going off on a Wikipedia browsing or YouTube watching tangent has always been hard. 
-
-But surprisingly, while streaming, I had no issue with slacking off. It's the most productive and motivated I've been in months.
-Knowing someone is watching you ship and having that constant pressure is quite helpful for my focus.
-
-I've discovered that trick now. Time to make streaming a habit. 
 
 ### It was fun!
 
