@@ -81,6 +81,8 @@
                 {{- block "main" . }}{{- end }}
             </div>
         </div>
-        {{- partial "footer.html" . -}}
+        {{- block "footer" . }}
+            {{- partial "footer.html" . -}}
+        {{- end }}
     </body>
 </html>

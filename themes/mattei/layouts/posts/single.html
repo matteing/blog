@@ -49,6 +49,8 @@
         body.darken-mode #header-image {
         }
 
+        body.darken-mode {}
+
         body.darken-mode #header-image:before {
             background: rgba(0,0,0, 0.8);
         }
@@ -76,6 +78,11 @@
 
         body.book-mode #header-image:before {
             background-color: transparent;
+        }
+
+        body.darken-mode #footer {
+            background-color: transparent;
+            z-index: 1000;
         }
 
         #header-image:before {
@@ -120,7 +127,7 @@
                 <article class="media" id="me-media">
                         <figure class="media-left is-hidden-touch">
                             <p class="image is-64x64">
-                                <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
+                                <img class="img-circle" src="https://pbs.twimg.com/profile_images/1030714799875940352/qTPu0Fo__400x400.jpg">
                             </p>
                         </figure>
                         <div class="media-content">
@@ -165,4 +172,12 @@
             }
         }
     </script>
+{{ end }}
+
+{{ define "footer" }}
+    <footer id="footer">
+        <center>
+            <img src="https://sergiomattei.com/assets/img/Arkus-Fatter.png" alt="Sergio Mattei's Logo" />
+        </center>
+    </footer>
 {{ end }}
