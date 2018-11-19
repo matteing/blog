@@ -85,6 +85,11 @@
             z-index: 1000;
         }
 
+        body.book-mode #footer {
+            background-color: transparent;
+            z-index: 1000;
+        }
+
         #header-image:before {
             transition: all 0.5s ease-in-out;
             position: absolute;
@@ -165,10 +170,10 @@
         window.onscroll = function() {
             var body = document.getElementById('body');
             var header_image = document.getElementById('header-image');
-            if ( window.pageYOffset > 300) { //400 for reading mode is optimal
-                body.classList.add("darken-mode");
+            if ( window.pageYOffset > 400) { //300 for darken 400 for reading mode is optimal
+                body.classList.add("book-mode");
             } else {
-                body.classList.remove("darken-mode");
+                body.classList.remove("book-mode");
             }
         }
     </script>
@@ -177,7 +182,7 @@
 {{ define "footer" }}
     <footer id="footer">
         <center>
-            <img src="{{ .Site.BaseURL }}/img/Arkus-Fatter.png" alt="Sergio Mattei's Logo" />
+            <img src="{{ .Site.BaseURL }}/img/Arkus-Fatter-Black.png" alt="Sergio Mattei's Logo" />
         </center>
     </footer>
 {{ end }}

@@ -494,8 +494,8 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 }
 
 .blog-content-card {
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
     margin-bottom: 20px;
 }
 
