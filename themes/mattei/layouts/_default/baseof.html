@@ -81,8 +81,11 @@
                 {{- block "main" . }}{{- end }}
             </div>
         </div>
+        
         {{- block "footer" . }}
             {{- partial "footer.html" . -}}
         {{- end }}
+
+        <script src="{{ .Site.BaseURL }}js/global.js"></script>
     </body>
 </html>
