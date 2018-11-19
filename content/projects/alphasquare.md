@@ -6,8 +6,8 @@ homepage: ""
 screenshot: "https://matteing.github.io/img/alphasquare.png"
 ---
 
-## About this project
-Makerlog is the dead-simple task log for product makers!
+Alphasquare, now closed, was a social network for programmers I made as a hobby a few years ago, along with a few friends.
 
-## Awards
-- #3 Product of the Day on Product Hunt
+#### Awards
+- Amassed over a hundred users, many active.
+- Sprouted a friendly and healthy environment for programming discussion.

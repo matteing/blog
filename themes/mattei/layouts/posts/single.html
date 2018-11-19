@@ -57,11 +57,11 @@
             background-color: #fff !important;
         }
             
-        body.book-mode .title {
+        body.book-mode #blog-post-hero .title {
             color: black !important;
         }
 
-        body.book-mode .subtitle {
+        body.book-mode #blog-post-hero .subtitle {
             color: black !important;
         }
 
@@ -158,7 +158,7 @@
         window.onscroll = function() {
             var body = document.getElementById('body');
             var header_image = document.getElementById('header-image');
-            if ( window.pageYOffset > 250) {
+            if ( window.pageYOffset > 300) { //400 for reading mode is optimal
                 body.classList.add("darken-mode");
             } else {
                 body.classList.remove("darken-mode");

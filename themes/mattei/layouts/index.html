@@ -17,7 +17,7 @@
         </div>
     </div>
     
-    <h2 class="title is-4" style="margin-top: 30px;">Blog posts</h2>
+    <h2 class="title is-4" style="margin-top: 30px;">Ideas</h2>
     <h2 class="subtitle is-5 has-text-grey">I like to write in my free time.</h2>
     {{ range first 7 (where .Pages "Params.draft" false).ByDate.Reverse }}
         {{ if eq .Type "posts"}}
@@ -26,15 +26,30 @@
     {{ end }}
 
     <h2 class="title is-4" style="margin-top: 30px;">Other links</h2>
-    <h2 class="subtitle is-5 has-text-grey">Here's other things related to me.</h2>
-    <div class="columns">
-            <div class="column">
+    <h2 class="subtitle is-5 has-text-grey">Stay in the loop by following me on social media!</h2>
+    <div class="thing-tiles tile is-ancestor">
+        <div class="tile is-parent">
+                <a href="mailto:mattei@sergiomattei.com" class="product-tile icon-tile email tile is-child">
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </a>
             </div>
-        <div class="column">
-                <a class="twitter-timeline" data-height="500" href="https://twitter.com/matteing?ref_src=twsrc%5Etfw">Tweets by matteing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <div class="tile is-parent">
+            <a href="https://twitter.com/matteing" target="_blank" class="product-tile icon-tile twitter tile is-child">
+                <div>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </a>
         </div>
-        <div class="column">
-            <iframe title="Makerlog Embed" height="500" style="width:100%; border-radius: 10px;" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1/embed?header_color=white"></iframe>
-        </div>
+
+        <div class="tile is-parent">
+                <a href="https://getmakerlog.com/@sergio" target="_blank" class="product-tile icon-tile makerlog tile is-child">
+                    <div>
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                </a>
+            </div>
     </div>
 {{ end }}

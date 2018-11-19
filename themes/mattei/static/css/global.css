@@ -5,6 +5,7 @@
      display: flex;
      flex-direction: column;
      min-height: 100vh;
+     padding-bottom: 50px;
  }
 
  h1,
@@ -295,18 +296,18 @@
     background: #67b26f;
     background: #16a085;
     background: #11998e;
-    background: -webkit-linear-gradient(120deg, #38ef7d, #11998e);
-    background: -webkit-linear-gradient(bottom, #38ef7d, #11998e);
-    background: linear-gradient(120deg, #38ef7d, #11998e);
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: linear-gradient(120deg, #11998e, #38ef7d);
 }
 
  .product-tile.makerlog {
-     background: #67b26f;
-     background: #16a085;
-     background: #11998e;
-     background: -webkit-linear-gradient(120deg, #38ef7d, #11998e);
-     background: -webkit-linear-gradient(bottom, #38ef7d, #11998e);
-     background: linear-gradient(120deg, #38ef7d, #11998e);
+    background: #67b26f;
+    background: #16a085;
+    background: #11998e;
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: linear-gradient(120deg, #11998e, #38ef7d);
  }
 
  .product-tile.makerlog>div>.title {
@@ -506,8 +507,8 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 }
 
 .blog-content-card {
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 250px;
+    margin-left: 250px;
     margin-bottom: 20px;
 }
 
@@ -519,7 +520,7 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 #blog-post {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    font-family: "Archivo", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     line-height: 1.6;
     padding: 50px 100px 50px 100px;
@@ -622,24 +623,6 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
     color: white;
 }
 
-.makerlog {
-    background: #67b26f;
-    background: #16a085;
-    background: #11998e;
-    background: -webkit-linear-gradient(120deg, #38ef7d, #11998e);
-    background: -webkit-linear-gradient(bottom, #38ef7d, #11998e);
-    background: linear-gradient(120deg, #38ef7d, #11998e);
-    color: white;
-}
-
- .product-tile.makerlog {
-     background: #67b26f;
-     background: #16a085;
-     background: #11998e;
-     background: -webkit-linear-gradient(120deg, #38ef7d, #11998e);
-     background: -webkit-linear-gradient(bottom, #38ef7d, #11998e);
-     background: linear-gradient(120deg, #38ef7d, #11998e);
- }
 
  .product-tile.makerlog>div>.title {
      color: white !important;
@@ -657,17 +640,92 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
     color: white;
 }
 
-.product-tile.alphasquare>div>.title {
+.dark-product .title {
+    color: white !important;
+}
+
+.dark-product .content {
+    color: white !important;
+}
+
+.dark-product h6 {
+    color: white !important;
+}
+
+.dark-product h4 {
+    color: white !important;
+}
+
+.dark-product h5 {
+    color: white !important;
+}
+
+.dark-product h3 {
+    color: white !important;
+}
+
+.dark-product h2 {
+    color: white !important;
+}
+
+.dark-product h1 {
+    color: white !important;
+}
+
+
+.dark-product .heading {
+    color: white !important;
+}
+
+.dark-product .subtitle {
+    color: white !important;
+}
+
+.icon-tile.twitter {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(120deg, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(120deg, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon-tile > div > svg {
+    color: white !important;
+    font-size: 60px;
+}
+
+.icon-tile.email {
+    background: #EC6F66;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(120deg, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(120deg, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.project-hero {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.makerlog .product-name {
+    color: white !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700;
+}
+
+.opsbot .product-name {
+    color: white !important;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 700;
+}
+
+.alphasquare .product-name {
     color: white !important;
     font-family: "Lobster Two", sans-serif !important;
     text-transform: lowercase;
     font-weight: 700;
 }
 
-.dark-product .title {
+.taleship .product-name {
     color: white !important;
-}
-
-.dark-product .subtitle {
-    color: white !important;
+    font-family: "Lobster Two", sans-serif !important;
+    text-transform: lowercase;
+    font-weight: 700;
 }
