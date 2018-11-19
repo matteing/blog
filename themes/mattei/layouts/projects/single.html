@@ -1,0 +1,51 @@
+{{ define "body-classes" }}{{ .Params.classes }}{{ end }}
+
+{{ define "header-text" }}
+    <h1 class="title is-3 has-text-white">
+        <b>Hey, I'm Sergio Mattei.</b>
+        <span class="has-text-lighter" style="font-weight: 300;">
+                <br /> Developer and entrepreneur.
+        </span>
+    </h1>
+{{ end }}
+
+{{ define "main" }}
+<div class="level">
+    <div class="level-left">
+        <div>
+            <h1 class="title is-3  has-text-white">
+                {{ .Title }}
+            </h1>
+            <h2 class="subtitle is-5  has-text-white">
+                {{ .Params.tagline }}
+            </h2>
+        </div>
+    </div>
+    <div class="level-right">
+        {{ if .Params.homepage }}
+            <a href="{{ .Params.homepage }}" class="button is-primary is-inverted is-outlined">Visit homepage</a>
+        {{ end }}
+    </div>
+</div>
+<div class="card">
+        <div class="card-content">
+            <div class="content">
+                    <div class="columns">
+                            <div class="column">
+                               {{ .Content }}
+                            </div>
+                            <div class="column">
+                                    <div class="card">
+                                            <div class="card-content">
+                                                <img src="{{ .Params.screenshot }}">
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+  
+    
+
+{{ end }}

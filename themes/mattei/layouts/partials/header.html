@@ -3,21 +3,14 @@
         <div class="level-left">
             <a href="/" class=" is-hidden-mobile level-item" style="margin-right: 30px;">
                 <p class="image is-64x64">
-                    <img class="img-circle" src="https://avatars2.githubusercontent.com/u/7959397?s=460&v=4">
+                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/1030714799875940352/qTPu0Fo__400x400.jpg">
                 </p>
             </a>
             <a href="/" class="level-item">
-                {{ if .IsPage }}
-                    <h1 class="title is-3 has-text-white">
-                        <b>Sergio Mattei's Blog</b>
-                        <span class="has-text-lighter" style="font-weight: 300;">
-                                <br /> Thoughts, essays, and more.
-                        </span>
-                    </h1>
-                {{ else }}
+                {{ block "header" . }}
                     <h1 class="title is-3">
                         <b>Hey, I'm Sergio Mattei.</b>
-                        <span class="has-text-grey"> <br />Developer and entrepreneur.</span>
+                        <span class="has-text-grey" style="font-weight: 300;"> <br />Developer and entrepreneur.</span>
                     </h1>
                 {{ end }}
             </a>

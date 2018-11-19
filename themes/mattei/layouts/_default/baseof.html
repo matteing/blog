@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body id="body">
+    <body id="body" class="{{ block "body-classes" . }}{{ end }}">
         <div id="header-image"></div>
         <span id="fader"></span>
         <div class="column is-one-fifth menu" id="nav" data-menu>
@@ -17,13 +17,13 @@
                             </a>
                         </li>
                         <li>
-                            <a>
-                                Projects
+                            <a href="/posts">
+                                Posts
                             </a>
                         </li>
                         <li>
-                            <a>
-                                Ideas
+                            <a href="/projects">
+                                Projects
                             </a>
                         </li>
                         <li>
@@ -47,7 +47,37 @@
             </div>
         <div id="main-column">
             <div class="container">
-                {{- partial "header.html" . -}}
+                <div id="header-hero">
+                    <div class="level is-mobile">
+                        <div class="level-left">
+                            <a href="/" class=" is-hidden-mobile level-item" style="margin-right: 30px;">
+                                <p class="image is-64x64">
+                                    <img class="img-circle" src="https://pbs.twimg.com/profile_images/1030714799875940352/qTPu0Fo__400x400.jpg">
+                                </p>
+                            </a>
+                            <a href="/" class="level-item">
+                                {{ block "header-text" . }}
+                                    <h1 class="title is-3">
+                                        <b>Hey, I'm Sergio Mattei.</b>
+                                        <span class="has-text-grey" style="font-weight: 300;"> <br />Developer and entrepreneur.</span>
+                                    </h1>
+                                {{ end }}
+                            </a>
+                
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                                <!-- <a href="https://twitter.com/matteing?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                                                        data-size="large" data-show-screen-name="false" data-show-count="false">Follow @matteing</a>
+                                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                                <button data-tippy-placement="left" data-tippy="Social, resumé, and more" class="button is-text is-large {{ if .IsPage }}has-text-white{{ end }}" data-trigger>
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
                 {{- block "main" . }}{{- end }}
             </div>
         </div>

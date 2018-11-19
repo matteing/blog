@@ -1,9 +1,40 @@
 {{ define "main" }}
-    <h2 class="subtitle is-6 has-text-grey" style="margin-top: 20px; font-style: italic;">Thoughts I write
-            down...</h2>
-    {{ range first 7 .Pages }}
+    <h2 class="title is-4">Things I've made</h2>
+    <h2 class="subtitle is-5 has-text-grey">I've made many products...</h2>
+    <div class="thing-tiles tile is-ancestor">
+        {{ range (where .Pages "Type" "projects") }}
+            {{ if eq .Params.featured true}}
+                {{- partial "project_card.html" . -}}
+            {{ end }}
+        {{ end }}
+        <div class="tile is-parent">
+            <a href="projects" class="product-tile more tile is-child">
+                <div>
+                    <h3 class="title is-3">More →</h3>
+                    <h5 class="subtitle is-8">See all of my projects!</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <h2 class="title is-4" style="margin-top: 30px;">Blog posts</h2>
+    <h2 class="subtitle is-5 has-text-grey">I like to write in my free time.</h2>
+    {{ range first 7 (where .Pages "Params.draft" false).ByDate.Reverse }}
         {{ if eq .Type "posts"}}
             {{- partial "post_card.html" . -}}
         {{ end }}
     {{ end }}
+
+    <h2 class="title is-4" style="margin-top: 30px;">Other links</h2>
+    <h2 class="subtitle is-5 has-text-grey">Here's other things related to me.</h2>
+    <div class="columns">
+            <div class="column">
+            </div>
+        <div class="column">
+                <a class="twitter-timeline" data-height="500" href="https://twitter.com/matteing?ref_src=twsrc%5Etfw">Tweets by matteing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="column">
+            <iframe title="Makerlog Embed" height="500" style="width:100%; border-radius: 10px;" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1/embed?header_color=white"></iframe>
+        </div>
+    </div>
 {{ end }}

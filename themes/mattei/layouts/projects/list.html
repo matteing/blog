@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <h2 class="title is-4">Things I've made</h2>
+    <h2 class="subtitle is-5 has-text-grey">Below is a list of products and digital creations I've shipped.</h2>
+    {{ range .Pages.ByParam "featured"  }}
+            {{ if eq .Type "projects"}}
+                {{- partial "project_card.html" . -}}
+            {{ end }}
+        {{ end }}
+{{ end }}

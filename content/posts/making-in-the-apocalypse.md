@@ -4,21 +4,16 @@ date: 2018-11-11T21:32:37-04:00
 tags: []
 categories: []
 
-draft: true
+draft: false
 tagline: "This is naturally a difficult story to tell."
-cover: ""
+cover: "https://fortunedotcom.files.wordpress.com/2017/09/ap_17264082971735.jpg"
 ---
 
 This is naturally a difficult story to tell. It involves two very hard things
 for me, the passing of Hurricane María and the shutdown of a previous startup.
 But I’m wishing to tell my story, so others can learn and be inspired by it.
 
-
-![](https://cdn-images-1.medium.com/max/800/1*MRVpwZi5Y_kZFGwAyeJ-mw.jpeg)
-
 ### The calm
-
-*I decided to include what I felt, for context.*
 
 September 16, 2017. Caguas, Puerto Rico.
 
@@ -263,10 +258,3 @@ picking up debris.
 I felt hope. Hope that in the face of adversity, we would rise.
 
 And we did.
-
-* [Life Lessons](https://medium.com/tag/life-lessons?source=post)
-* [SaaS](https://medium.com/tag/saas?source=post)
-* [Development](https://medium.com/tag/development?source=post)
-* [Makers](https://medium.com/tag/makers?source=post)
-* [Startup](https://medium.com/tag/startup?source=post)
-

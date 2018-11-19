@@ -1,0 +1,32 @@
+{{ define "header-text" }}
+    <h1 class="title is-3">
+        <b>Sergio Mattei's Blog</b>
+        <span class="has-text-grey" style="font-weight: 300;">
+                <br /> Ideas, essays, and more.
+        </span>
+    </h1>
+{{ end }}
+
+{{ define "main" }}
+    <h2 class="title is-4">Blog posts</h2>
+    <h2 class="subtitle is-5 has-text-grey">Read all my blog posts below.</h2>
+
+    <div class="thing-tiles tile is-ancestor is-vertical">
+        {{ range (where .Pages "Params.draft" false).ByDate.Reverse }}
+            {{ if eq .Type "posts"}}
+                {{- partial "post_card.html" . -}}
+            {{ end }}
+        {{ end }}
+    </div>
+
+    <h2 class="title is-4">Drafts</h2>
+    <h2 class="subtitle is-5 has-text-grey">I write in the open. Below are future articles.</h2>
+
+    <div class="thing-tiles tile is-ancestor is-vertical">
+            {{ range (where .Pages "Params.draft" true).ByDate.Reverse }}
+            {{ if eq .Type "posts"}}
+                {{- partial "post_card.html" . -}}
+            {{ end }}
+        {{ end }}
+    </div>
+{{ end }}
