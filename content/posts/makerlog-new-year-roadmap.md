@@ -9,7 +9,7 @@ tagline: "As 2019 approaches, it's time to reflect on the future of Makerlog."
 cover: "https://i.imgur.com/27KqSVq.png"
 ---
 
-As 2019 approaches rapidly, I've began my yearly journey of introspection and quiet reflection about what Makerlog is and what direction to take it. 
+As 2019 approaches rapidly, so begins my routine journey of introspection and quiet reflection about what Makerlog is and what direction to take it. 
 
 It's incredible to look back and see the great growth of our community in such a short span of time - we're approaching 1000 friends - in just around six months! This is my first succesful software project, and I plan to continue growing it throughout this new year and beyond. 
 
@@ -21,8 +21,6 @@ This is the elephant in the room, so it only makes sense to get it out of the wa
 #### "Uh, @matteing, how are we doing?"
 
 Makerlog is cash flow positive due to the generous donations from the community, and at the current rate of growth, funded for the next 2 years.
-
-We're doing ~~fine~~ great. #hatersgonnahate
 
 #### "Okay, but free isn't sustainable."
 
@@ -48,7 +46,7 @@ Makerlog will be monetized in an ethical manner, keeping inclusiveness in mind. 
 
 #### Concluding financials
 
-All in all, we're doing great. And I will make sure to keep it that way.
+All in all, we're doing ~~fine~~ great (#hatersgonnahate). And I will make sure to keep it that way.
 
 
 ### Development
@@ -59,8 +57,71 @@ Time to touch the development part!
 
 A public API is already completed - it's lacking in documentation. This year, I commit to writing easy to understand API documentation and a series of tutorials on how to do cool things - like creating apps for Makerlog!
 
+Several third party integrations are out there already, including [maker.rocks](https://maker.rocks) and an upcoming client by another third party. However, the biggest impediment for these to be created is the lack of documentation, and I must step up my documentation game significantly.
+
 #### Mobile
 
 The current state of mobile on Makerlog is atrocious, and this will be a focus for the upcoming year.
 
 There will be no promises here - but I'm looking to create a mobile app and a responsive web browsing experience.
+
+#### Integrations
+
+Integrations will remain mostly untouched as 2019 takes the stage. 
+
+The only major change in this area is a soon-to-be-announced integration, but details on the partnership are not concrete yet. 
+
+#### Digests
+
+A major feature in plans will be email digests and streak notifications. I've heard much feedback about this topic and considered each idea proposed.
+
+Many users feel they could use a reminder when their streak is about to end - some of us naturally forget to log. 
+
+I'm glad to announce that this feature, along with other email goodies like weekly digests, are in plans starting 2019.
+
+#### Discussions
+
+Discussions is growing at a great pace and more will be done to grow it further, including further integration throughout the site and in the upcoming Makerlog Digests.
+
+#### Profiles
+
+Profiles will get small changes and improvements in 2019, like better public statistics for each user and other goodies.
+
+Social stats, however, will be removed in an update soon due to lack of usage (and usefulness...)
+
+Other than that, small fixes and improvements.
+
+#### Productivity Enhancements
+
+I'm now actively seeking out ways to improve productivity on the platform while considering mental health, which I feel is an underdiscussed topic.
+
+With a streaks rewrite, I hope to include break times and other features to promote emotional health.
+
+The grind is great and all, but we're humans. The best way to stay productive is to prevent burnout, and I'm actively seeking ideas to improve this situation on Makerlog.
+
+Aside from emotional health, I am looking at other ways to reward usage on the platform - maybe even an achievements system (because badges are cool).
+
+#### Transparency and Open Source
+
+In the course of the following year, I aspire for Makerlog to turn more and more transparent as it grows.
+
+We're on track for a full open sourcing of the frontend code, which is scheduled sometime mid-December.
+
+Aside from open sourcing components, open statistics are key to what make Makerlog great, and this aspect will be doubled down upon. 
+
+#### Design and User Experience
+
+Makerlog's design and user experience have been hit or miss. As the app grows, it's been increasingly clear that design must no longer be an afterthought, but a initial one. No promises here, but I'm committed to improving UX and design for the entire platform.
+
+### Links
+
+Below are public links to the roadmap and backlog. Feel free to take a look and comment on items, as feedback is always welcome! 
+
+1. [Roadmap](https://www.notion.so/mattei/7be1eb1f2529484f8cb8d3ddfcc01e36?v=612857eafedb4c0c8670fc94a1ad1d98)
+2. [Backlog](https://www.notion.so/mattei/Backlog-118ca1f89f4a4715ab458a1952417dc1)
+
+### Conclusion
+
+The next year is going to be seriously great. I can't express how grateful I am for the community support towards Makerlog...
+
+Thank you, all of you, and keep on shipping!
