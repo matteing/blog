@@ -12,7 +12,7 @@ cover: "https://i.imgur.com/27KqSVq.png"
 
 As 2019 rapidly approaches, so begins my journey of introspection and quiet reflection about what Makerlog is and what direction to take it. 
 
-It's incredible to look back and see the great growth of our community in such a short span of time - we're approaching 1000 friends - in just around six months! This is my first succesful software project, and I plan to continue growing it throughout this new year and beyond. 
+It's incredible to look back and see the great growth of our community in such a short span of time - we're already 1000+ friends - in just around six months! This is my first succesful software project, and I plan to continue growing it throughout this new year and beyond. 
 
 
 ![Makerlog](https://i.imgur.com/PKSbg1I.gif)
