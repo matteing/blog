@@ -34,7 +34,7 @@ Since the beginning, I've said the same thing...
 
 > once we reach 1000 users, I'll consider adding a premium plan
 
-![Oh wow](https://i.imgur.com/mCezkmI.png)
+![Oh wow](https://i.imgur.com/usYMNv8.png)
 
 The time has come to consider it. Makerlog is rapidly approaching 1000 users.
 
