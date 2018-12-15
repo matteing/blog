@@ -376,15 +376,14 @@
      padding: 50px;
      display: flex;
      align-items: center;
-     background-position: center;
-     background-size: cover;
+     background-position: center !important;
+     background-size: cover !important;
      color: white;
      cursor: pointer;
      position: relative;
      background: #acb6e5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
  .blog-tile:before {
@@ -519,23 +518,25 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 #blog-post {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
-    padding: 50px 100px 50px 100px;
+    font-family: 'Merriweather', 'Georgia', serif;
+    font: 100%/2 'Merriweather','Georgia',serif;
+    line-height: 2rem;
+    padding: 50px 150px 50px 150px;
 }
 
 .blog-post-container {
 }
 
-#blog-post h1,
-#blog-post h2,
-#blog-post h3,
-#blog-post h4,
-#blog-post h5,
-#blog-post h6 {
+#blog-post .content h1,
+#blog-post .content h2,
+#blog-post .content h3,
+#blog-post .content h4,
+#blog-post .content h5,
+#blog-post .content h6 {
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 15px;
+    line-height: 1.1;
 }
 
 #blog-post > .content:first-letter {
@@ -605,7 +606,6 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 
 .content img {
     border-radius: 10px;
-    margin: 10px;
     width: 100%;
 }
 
