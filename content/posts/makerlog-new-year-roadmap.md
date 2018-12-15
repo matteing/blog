@@ -36,7 +36,7 @@ Since the beginning, I've said the same thing...
 
 ![Oh wow](https://i.imgur.com/usYMNv8.png)
 
-The time has come to consider it. Makerlog is rapidly approaching 1000 users.
+The time has come to consider it. 
 
 #### Foundations for a Makerlog Premium plan
 
