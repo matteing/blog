@@ -4,16 +4,18 @@ date: 2018-11-27T13:56:29-04:00
 tags: []
 categories: []
 
-draft: true
+draft: false
 tagline: "As 2019 approaches, it's time to reflect on the future of Makerlog."
 cover: "https://i.imgur.com/27KqSVq.png"
 ---
 
-![Makerlog](https://i.imgur.com/jkfDzkW.jpg)
 
-As 2019 approaches rapidly, so begins my routine journey of introspection and quiet reflection about what Makerlog is and what direction to take it. 
+As 2019 rapidly approaches, so begins my journey of introspection and quiet reflection about what Makerlog is and what direction to take it. 
 
 It's incredible to look back and see the great growth of our community in such a short span of time - we're approaching 1000 friends - in just around six months! This is my first succesful software project, and I plan to continue growing it throughout this new year and beyond. 
+
+
+![Makerlog](https://i.imgur.com/PKSbg1I.gif)
 
 So let's discuss direction now! Below are a few topics that will be important in the following months for the growth and continuity of our community.
 
@@ -46,9 +48,9 @@ Makerlog will be monetized in an ethical manner, keeping inclusiveness in mind. 
 2. Makerlog will remain free. Of course.
 3. The plan will only contain value added features (say a dark mode or other cool things). 
 
-#### Concluding financials
+#### Concluding financials... #hatersgonnahate
 
-All in all, we're doing ~~fine~~ great (#hatersgonnahate). And I will make sure to keep it that way.
+All in all, we're doing ~~fine~~ great. And I will make sure to keep it that way.
 
 
 ### Development
@@ -59,13 +61,22 @@ Time to touch the development part!
 
 A public API is already completed - it's lacking in documentation. This year, I commit to writing easy to understand API documentation and a series of tutorials on how to do cool things - like creating apps for Makerlog!
 
-Several third party integrations are out there already, including [maker.rocks](https://maker.rocks) and an upcoming client by another third party. However, the biggest impediment for these to be created is the lack of documentation, and I must step up my documentation game significantly.
+Several third party integrations are out there already, including [maker.rocks](https://maker.rocks) and an unofficial mobile app. However, the biggest impediment for these to be created is the lack of documentation, and I must step up my documentation game significantly.
 
 #### Mobile
 
 The current state of mobile on Makerlog is atrocious, and this will be a focus for the upcoming year.
 
-There will be no promises here - but I'm looking to create a mobile app and a responsive web browsing experience.
+There will be no promises here - but I'm looking to create a better responsive web browsing experience.
+
+There's two unofficial apps out there for Makerlog, made by maker [Arnav Puri](https://twitter.com/arnavpuri). Go download them, they're the best mobile experience for Makerlog so far! 
+
+iOS version is currently in beta though, be warned. It's super stable though! :)
+
+**[Get the app on Google Play](https://play.google.com/store/apps/details?id=com.brownfingers.getmakerlog)**
+
+**[Get the app on the App Store (TestFlight)](https://t.co/7cPEwM34pk)**
+
 
 #### Integrations
 
@@ -121,6 +132,16 @@ Below are public links to the roadmap and backlog. Feel free to take a look and 
 
 1. [Roadmap](https://www.notion.so/mattei/7be1eb1f2529484f8cb8d3ddfcc01e36?v=612857eafedb4c0c8670fc94a1ad1d98)
 2. [Backlog](https://www.notion.so/mattei/Backlog-118ca1f89f4a4715ab458a1952417dc1)
+
+### TL;DR
+
+The focus this coming year will be in...
+
+1. Design
+2. Mobile
+3. Financials
+4. Incremental improvements and feedback
+5. Rethinking streaks
 
 ### Conclusion
 

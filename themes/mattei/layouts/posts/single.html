@@ -121,7 +121,7 @@
         <div class="card blog-content-card">
             <div class="card-content" id="blog-post">
                 {{ if .Draft }}<center class="has-text-grey">🚧  This post is a draft. I'm still writing it! 🚧<br /> Let me know your thoughts by <a href="https://twitter.com/matteing">tweeting at me.</a><hr /></center>{{ end }}
-                <div class="content">
+                <div class="content" id="blog-content">
                     {{ if .Content }}
                         {{ .Content }}
                     {{ else }}
@@ -176,6 +176,23 @@
                 body.classList.remove("book-mode");
             }
         }
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var article = document.getElementById('blog-content');
+            var headings = article.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            headings.forEach(function(heading){
+            if(heading.id){
+                var a = document.createElement('a');
+                a.innerHTML = "🔗";
+                a.href = '#'+heading.id;
+                heading.classList.add("post-permalink")
+                a.classList.add("icon")
+                heading.appendChild(a);
+            }
+            });
+        }, false);
+
     </script>
 {{ end }}
 
