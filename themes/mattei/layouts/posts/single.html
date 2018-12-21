@@ -167,6 +167,12 @@
 
     <script>
 
+        $(document).ready(function() {
+        $('pre').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+        });
+
         window.onscroll = function() {
             var body = document.getElementById('body');
             var header_image = document.getElementById('header-image');
