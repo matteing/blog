@@ -5,7 +5,7 @@ tags: []
 categories: []
 
 draft: true
-tagline: "How terrible user experience is driving us into a mass surveillance future."
+tagline: "Terrible user experience is driving us into a mass surveillance future."
 cover: "https://images.unsplash.com/photo-1455368109333-ebc686ad6c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"
 ---
 
