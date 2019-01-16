@@ -1,11 +1,11 @@
 ---
-title: "Privacy First Doesnt Have to Suck"
+title: "Privacy-first doesn't have to suck."
 date: 2019-01-15T21:54:30-04:00
 tags: []
 categories: []
 
 draft: true
-tagline: "How terrible user experience is driving users into a mass surveillance future."
+tagline: "How terrible user experience is driving us into a mass surveillance future."
 cover: "https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
 ---
 
