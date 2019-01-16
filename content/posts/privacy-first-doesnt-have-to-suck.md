@@ -11,7 +11,7 @@ cover: "https://images.unsplash.com/photo-1455368109333-ebc686ad6c58?ixlib=rb-1.
 
 Privacy is the hot new buzzword these days, and I’m glad it is. In the age of [mass surveillance](f) and [data leaks](https://www.theguardian.com/news/series/cambridge-analytica-files), it’s completely reasonable for this new niche to thrive. After these scandalous leaks, many individuals have sought to replace their commonly used apps from big corporations with smaller, privacy oriented solutions. After all, we must protect our freedoms to the fullest extent - privacy and speech are fundamental to our democracy. 
 
-This renaissance of privacy first apps has been quite noticeable. From search engines to anti-spam tools, there’s a great alternative for almost every privacy-invading service out there. Most work wonderfully… but some work atrociously.
+This renaissance of privacy first apps has been quite noticeable. From [search engines](https://duck.com) to [anti-spam tools](https://leavemealone.xyz), there’s a great alternative for almost every privacy-invading service out there. Most work wonderfully… but some work atrociously.
 
 Let’s talk about these apps.
 
