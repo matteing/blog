@@ -6,7 +6,7 @@ categories: []
 
 draft: true
 tagline: "How terrible user experience is driving us into a mass surveillance future."
-cover: "https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+cover: "https://images.unsplash.com/photo-1455368109333-ebc686ad6c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"
 ---
 
 Privacy is the hot new buzzword these days, and I’m glad it is. In the age of [mass surveillance](f) and [data leaks](https://www.theguardian.com/news/series/cambridge-analytica-files), it’s completely reasonable for this new niche to thrive. After these scandalous leaks, many individuals have sought to replace their commonly used apps from big corporations with smaller, privacy oriented solutions. After all, we must protect our freedoms to the fullest extent - privacy and speech are fundamental to our democracy. 
