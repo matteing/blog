@@ -15,7 +15,7 @@ keywords:
   - makerlog
   - streak
   - health
-cover: /images/uploads/andreas-kind-311748-unsplash.jpg
+cover: https://sergiomattei.com/images/uploads/andreas-kind-311748-unsplash.jpg
 ---
 
 Today I am proud to announce the launch of Makerlog Wellness, a small - yet huge - update I've been silently working on for the past few weeks. Much thought went into the process of creating this update, and after careful consideration (and tons of pain rewriting the streak algorithm)... It's finally available for end users!
