@@ -66,7 +66,7 @@ Then I came across the first big question.
 
 The value of the streak is the accountable bit, and allowing vacation days would simply destroy the model completely.
 
-I came up with an interesting solution to this problem, taking into account a series of conversations on the Telegram group ([shameless plug, go join](t.me/makerlog)).
+I came up with an interesting solution to this problem, taking into account a series of conversations on the Telegram group ([shameless plug, go join](https://t.me/makerlog)).
 
 **I settled on the creation of two new tools: the rest day system, and weekend mode.**
 
