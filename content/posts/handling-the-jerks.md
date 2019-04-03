@@ -169,7 +169,9 @@ In total, the attack lasted around 2 hours, from 3 AM to 5 AM my time.
 
 ## Why did this happen? 
 
-This whole problem was caused by my inexperience, really. Makerlog, since the start, has been very open. The API has always welcomed all developers to build upon it, which has been a double-edged sword - in one hand, it created a passionate community of developers making awesome tools for Makerlog. In the other, it allowed for attacks like this to happen.
+This whole problem was caused by my inexperience, really.
+
+Makerlog, since the start, has been very open. The API has always welcomed all developers to build upon it, which has been a double-edged sword - in one hand, it created a passionate community of developers making awesome tools for Makerlog. In the other, it allowed for attacks like this to happen.
 
 Makerlog, due to its nature of openness, relies heavily on trust upon its users and heavy moderation. I trust my users completely. It was not the first time someone actively exploited the API to cause harm, but it was the first real serious attempt at lasting damage.
 
