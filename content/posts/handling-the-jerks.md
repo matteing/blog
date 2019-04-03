@@ -53,7 +53,7 @@ I didn't suspect much yet, and I thought that perhaps the server bugged out. May
 
 I was waking up a little more, so I sat down on my bed and opened up JuiceSSH on my phone to try and make sense of the situation. 
 
-Makerlog runs on [Dokku](http://dokku.viewdocs.io/dokku/), so my first mitigation step was to reboot the affected app containers. It's all very neatly managed by Dokku's abstraction over Docker, so it was easy to prompt a clean reboot (ignore the errors, I was asleep!):
+Makerlog runs on [Dokku](http://dokku.viewdocs.io/dokku/), so my first reaction was to reboot the affected app containers. The infrastructure is very neatly managed by Dokku's abstraction over Docker, so it was easy to prompt a clean reboot (ignore the errors, I was asleep!):
 
 ![errors and all](https://i.imgur.com/9o0IifU.png)
 
