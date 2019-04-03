@@ -93,7 +93,7 @@ It wouldn't be a new thing. I've previously mitigated attacks related to people 
 
 ### It was a DDoS
 
-I was wrong. After taking a look at the Nginx logs, the situation was clear. A user was attacking our site and repeatedly pinging the `/products/` endpoint (which happened to not be paginated -- more on this later).
+I was wrong. After taking a look at the Nginx logs, the situation was clear. A user was attacking our site and repeatedly pinging the `/products/` endpoint.
 
 ![nginx log](https://i.imgur.com/lEsbwgP.jpg)
 
@@ -109,7 +109,7 @@ And today they did.
 
 ### Mitigation attempt #1: the ban hammer
 
-So as any panicking citizen does when they receive a DDoS on their production server, I picked up the mighty ol' ban hammer, wielding its lightweight yet strong titanium alloy construction and utilizing it to kick some ass.
+So as any panicking citizen does when they receive a DDoS on their production server, I picked up the mighty ol' ban hammer, wielding its lightweight yet strong titanium alloy build and utilizing it to kick some ass.
 
 I used Ol' Reliable and banned the offending IP addresses.
 
