@@ -9,7 +9,7 @@ tagline: "A story of dragons, denial of service attacks, and waking up at 3 AM."
 cover: "https://images.unsplash.com/photo-1552907634-471b3761315f"
 ---
 
-It was a dark, foggy night. In a cozy bed, I slept swiftly after a long day of university lectures and late-night coding. 
+It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding. 
 
 Then a noise. A long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to _shut that shit down_.
 
@@ -230,7 +230,7 @@ However, after this event, tighter controls will be implemented. I'm not locking
 
 ## Thank you's!
 
-Huge thanks to friends like [James Ivings](https://twitter.com/jivings) and [Mubaris NK](https://twitter.com/mubaris_nk) for their help mitigating the attack and figuring out the root cause. And of course, another big thank you to the community for being so supportive even in rough times.
+A huge shoutout to friends like [James Ivings](https://twitter.com/jivings) and [Mubaris NK](https://twitter.com/mubaris_nk) for their help mitigating the attack and figuring out the root cause. And of course, another big thank you to the community for being so supportive even in rough times.
 
 ## Concluding
 
