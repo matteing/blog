@@ -89,7 +89,7 @@ Then suddenly... I was reminded of a possibility I had completely forgotten.
 
 ![oh shoot](https://i.imgur.com/SyxX3m9.png)
 
-It wouldn't be a new thing. I've previously mitigated attacks related to people spamming the tasks endpoint, although not very frequently. Makerlog, although it's around 2.3k members, is still a relatively small and lowkey service. I don't draw too much trouble.
+It wouldn't be a new thing. I've previously mitigated attacks related to people spamming the tasks endpoint. Makerlog, although it's around 2.3k members, is still a relatively small and lowkey service. I don't draw too much trouble.
 
 ### It was a DDoS
 
