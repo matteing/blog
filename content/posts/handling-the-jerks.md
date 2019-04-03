@@ -11,7 +11,7 @@ cover: "https://images.unsplash.com/photo-1552907634-471b3761315f"
 
 It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding. 
 
-Then a noise. A long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to _shut that shit down_.
+Suddenly, a long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to _shut that shit down_.
 
 It was a call. A call from a [Makerlog](https://gemakerlog.com) member.
 
@@ -49,7 +49,7 @@ I began lifting the covers and turning on the lights (and coincidentally waking 
 
 ### A reboot will do
 
-I didn't suspect much yet, and I thought that perhaps the server bugged out or it was leaking memory.
+I didn't suspect much yet, and I thought that perhaps the server bugged out. Maybe it was a memory leak.
 
 I was waking up a little more, so I sat down on my bed and opened up JuiceSSH to try and make sense of the situation. 
 
