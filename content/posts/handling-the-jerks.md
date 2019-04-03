@@ -6,7 +6,7 @@ categories: []
 
 draft: true
 tagline: "A story of dragons, denial of service attacks, and waking up at 3 AM."
-cover: "https://images.unsplash.com/photo-1552907634-471b3761315f"
+cover: "https://images.unsplash.com/photo-1543946602-8496af5aaa53"
 ---
 
 It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding. 
