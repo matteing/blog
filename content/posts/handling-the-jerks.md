@@ -81,7 +81,7 @@ I looked at the server log in disbelief. I had no idea what was going on.
 
 After taking a look at the errors a few times, I concluded on _server error_. Makerlog runs on Uvicorn, which uses ASGI, so it is prone to bugs related to async/await. The error was about some coroutine thing, so I went down that path.
 
-I began looking over the async code on the site, trying to find any errors. I surgically examined the WebSockets and database query code inside them to no avail.
+I began looking over the async code on the site, trying to find any errors. I surgically examined the WebSockets and database query code to no avail.
 
 Then suddenly... I was reminded of a possibility I had completely forgotten.
 
