@@ -61,7 +61,7 @@ After a while, the containers rebooted. I was finally able to access the admin p
 
 ...sike.
 
-It didn't really work, and the problems continued. I proceeded to reboot the whole server to try and debug, which didn't work either. 
+It didn't work, and the problems continued. I proceeded to reboot the whole server to try and debug, which didn't work either. 
 
 I opened the error logs to try and find any issues inside the containers. It was only showing a repeated stream of async/await coroutine errors, so I believed that was the problem.
 
