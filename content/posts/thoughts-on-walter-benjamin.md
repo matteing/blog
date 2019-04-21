@@ -37,7 +37,7 @@ This social media phenomenon also drives us to an indirect form of reproduction,
 
 Now, how do we stand out in a world of emulation and false digital personas? There is a correlation between originality and success. Most influencers tend to have very original behavior which attracts the masses to them in search of entertainment. Success in the social media age is based on unpredictability, originality, and the creation of auras rather than the translation of them.
 
-These are days when no one should rely unduly on his “competence”. Strength lies in improvisation. All the decisive blows are struck left-handed.
+> These are days when no one should rely unduly on his “competence”. Strength lies in improvisation. All the decisive blows are struck left-handed.
 
 I believe this Walter Benjamin quote applies today more than ever. We live in an age where personal creativity and originality creates success. It is possible to attract massive followings by creating a digital persona and digital aura. This is an age of creating new frontiers and exploring how far human creativity can go.
 
