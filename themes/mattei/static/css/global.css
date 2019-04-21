@@ -584,9 +584,7 @@
     color: inherit;
 }
 
-
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     #nav.menu--active {
         width: 100vw;
     }
@@ -594,13 +592,31 @@
     .blog-content-card {
         margin-right: 0px;
         margin-left: 0px;
-        border-radius: 0px !important;
     }
 
     #blog-post {
         padding-top: 5%;
         padding-bottom: 5%;
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-content-card {
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 0px !important;
+    }
+
+    #blog-post-hero .title {
+        font-size: 2rem;
+    }
+
+    #blog-post {
+        font-size: 16px;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding: 5%;
     }
 
     #header-hero .title {
