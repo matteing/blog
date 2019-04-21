@@ -13,7 +13,7 @@ It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day o
 
 Suddenly, a long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to _shut that shit down_.
 
-It was a call. A call from a [Makerlog](https://gemakerlog.com) member.
+It was a call. A call from a [Makerlog](https://getmakerlog.com) member.
 
 When I saw that caller ID, I instantly knew _something was going down_. And it was not good.
 
