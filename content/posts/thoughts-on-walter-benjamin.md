@@ -5,13 +5,13 @@ tags: []
 categories: []
 
 draft: true
-tagline: "On the relevance of Walter Benjamin's essay in the digital age"
-cover: "https://images.unsplash.com/photo-1518298297175-5b54b92e46b2"
+tagline: "It's time to evaluate how we portray ourselves online."
+cover: "https://images.unsplash.com/photo-1432265910742-819d660410b4"
 ---
 
 Over the course of the last decade, the rise of social media has undeniably impacted us all. The world is more connected than ever before, and in the face of such unprecedented power, we must begin to question how it has affected our personalities and psychology. Newer generations are being raised with mass media at the touch of a finger, and older ones are constantly portraying themselves and sharing their personalities on social media. 
 
-Our personalities are works of art. They are the product of true uniqueness, the product of a non-deterministic function where the inputs are our experiences and the outputs are truly random. We can’t hold two people accountable to the same standard due to the simple fact that we are all completely different - even after going through the same experiences, two humans will result being different in one way or another. In terms of similarity, we can share ideas, but the framework that analyzes these is always unique.
+Our personalities are works of art. They are the product of true uniqueness, the product of a non-deterministic function where the inputs are our experiences and the outputs are truly random. We can’t hold two people accountable to the same standard due to this - even after having similar experiences, two humans will always possess unique convictions. In terms of similarity, we can share ideas, but the framework that analyzes these is always unique.
 
 In “The Work of Art in the Age of Mechanical Reproduction”, Walter Benjamin defines the aura of a work of art as a combination of authenticity, historical testimony, and authority. Each of the previously stated elements depend on each other, to form what would be the “aura” of a painting as a whole. As part of Walter’s critique on Mechanical Reproduction, he explains that the reproduction of a work of art jeopardizes its aura, because a copy of a painting doesn’t contain the historical context and authenticity which the original piece contains. As he explains:
 
