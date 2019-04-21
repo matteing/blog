@@ -505,14 +505,16 @@
 }
 
 .blog-content-card {
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 10rem;
+    margin-left: 10rem;
     margin-bottom: 20px;
 }
 
 .card {
     border-radius: 10px !important; 
     box-shadow: none !important;
+    display: flex;
+    justify-content: center;
 }
 
 #blog-post {
@@ -521,7 +523,12 @@
     font-family: 'Merriweather', 'Georgia', serif;
     font: 100%/2 'Merriweather','Georgia',serif;
     line-height: 2rem;
-    padding: 50px 150px 50px 150px;
+    padding: 50px 0 50px 0;
+}
+
+#blog-post {
+    max-width: 36em;
+    min-width: 36em;
 }
 
 .blog-post-container {
@@ -591,7 +598,6 @@
     }
 
     #blog-post {
-        padding: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
         font-size: 16px;
