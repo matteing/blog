@@ -1,11 +1,11 @@
 ---
-title: "Personality in the age of Mechanical Reproduction"
+title: "Personality in the Age of Mechanical Reproduction"
 date: 2019-04-21T10:17:45-04:00
 tags: []
 categories: []
 
 draft: true
-tagline: "Some thoughts on Walter Benjamin"
+tagline: "On the relevancy of Walter Benjamin's essay in the digital age"
 cover: "https://images.unsplash.com/photo-1518298297175-5b54b92e46b2"
 ---
 
@@ -41,4 +41,6 @@ Now, how do we stand out in a world of emulation and false digital personas? The
 
 I believe this Walter Benjamin quote applies today more than ever. We live in an age where personal creativity and originality creates success. It is possible to attract massive followings by creating a digital persona and digital aura. This is an age of creating new frontiers and exploring how far human creativity can go.
 
-Personality isn’t lost in the age of “Mechanical Reproduction”. It has just evolved with us.
+Personality isn’t lost in the age of “Mechanical Reproduction”. 
+
+It has just evolved with us.
