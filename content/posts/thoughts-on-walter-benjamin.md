@@ -5,7 +5,7 @@ tags: []
 categories: []
 
 draft: true
-tagline: "On the relevancy of Walter Benjamin's essay in the digital age"
+tagline: "On the relevance of Walter Benjamin's essay in the digital age"
 cover: "https://images.unsplash.com/photo-1518298297175-5b54b92e46b2"
 ---
 
