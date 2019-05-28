@@ -6,7 +6,7 @@ categories: []
 
 draft: false
 tagline: "Responding to Walter Benjamin's work, 80 years later."
-cover: "https://images.unsplash.com/photo-1484589065579-248aad0d8b13"
+cover: "https://i.imgur.com/9wd2PhZ.jpg"
 ---
 
 The impact of social media on contemporary society is undeniable. Its rise over the last decade has given us an unprecedented power: the ability to communicate and spread our ideas far and wide in a matter of milliseconds. However, with such power in our hands, we must begin to question how our self expression has evolved alongside our technology. Newer generations are being raised with mass media at the touch of a finger, and older ones are constantly portraying themselves and sharing their personalities on social media. How has this rise affected how we see and portray ourselves?
