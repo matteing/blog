@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html><title>Sergio Mattei  | Lessons learned from jerks in the Internet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+<link rel="stylesheet" href="https://sergiomattei.com/css/bulma.css">
+<link rel="stylesheet" href="https://sergiomattei.com/css/global.css" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://sergiomattei.com//img/me.jpg">
+<link rel="icon" type="image/png" href="https://sergiomattei.com//img/circle-me.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://sergiomattei.com//img/circle-me.png" sizes="16x16">
+<link rel="mask-icon" href="https://sergiomattei.com//img/circle-me.png" color="#5bbad5">
+<meta name="theme-color" content="#ffffff"><meta property="og:title" content="Lessons learned from jerks in the Internet" />
+<meta property="og:description" content="It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding.
+Suddenly, a long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to shut that shit down.
+It was a call. A call from a Makerlog member." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sergiomattei.com/posts/handling-the-jerks/" />
+<meta property="article:published_time" content="2019-04-02T18:57:17-04:00"/>
+<meta property="article:modified_time" content="2019-04-02T18:57:17-04:00"/>
+
+<meta itemprop="name" content="Lessons learned from jerks in the Internet">
+<meta itemprop="description" content="It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding.
+Suddenly, a long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to shut that shit down.
+It was a call. A call from a Makerlog member.">
+
+
+<meta itemprop="datePublished" content="2019-04-02T18:57:17-04:00" />
+<meta itemprop="dateModified" content="2019-04-02T18:57:17-04:00" />
+<meta itemprop="wordCount" content="1888">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <meta name="twitter:description" content="It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding.
+Suddenly, a long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to shut that shit down.
+It was a call. A call from a Makerlog member." />
+    <meta name="twitter:title" content="Lessons learned from jerks in the Internet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1543946602-8496af5aaa53" /> 
+
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><body id="body" class="">
+        <div id="header-image"></div>
+        <span id="fader"></span>
+        <div class="column is-one-fifth menu" id="nav" data-menu>
+                <span id="close-button" data-trigger><i class="fas fa-times" aria-hidden="true"></i></span>
+                <div id="nav-content">
+                    <img src="https://sergiomattei.com/img/Arkus-Fatter.png" />
+                    <p class="subtitle social-icons">
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://sergiomattei.com/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sergiomattei.com/posts">
+                                Posts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sergiomattei.com/projects">
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sergiomattei.com//resume.pdf" target="_blank">
+                                Resumé
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="subtitle social-icons">
+                        <a href="https://getmakerlog.com/@sergio" class="undecorated" target="_blank">
+                            <i class="fas fa-check-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://github.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                        </a>&nbsp;
+                        <a href="https://twitter.com/matteing" class="undecorated" target="_blank">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        <div id="main-column">
+            <div class="container">
+                <div id="header-hero">
+                    <div class="level is-mobile">
+                        <div class="level-left">
+                            <a href="https://sergiomattei.com/" class=" is-hidden-mobile level-item" style="margin-right: 30px;">
+                                <p class="image is-64x64">
+                                    <img class="img-circle" src="https://sergiomattei.com//img/me.jpg">
+                                </p>
+                            </a>
+                            <a href="https://sergiomattei.com/" class="level-item">
+                                
+    <h1 class="title is-3 has-text-white">
+        <b>Sergio Mattei's Blog</b>
+        <span class="has-text-lighter" style="font-weight: 300;">
+                <br /> Ideas, essays, and more.
+        </span>
+    </h1>
+
+                            </a>
+                
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                                
+                                <button data-tippy-placement="left" data-tippy="Social, resumé, and more" class="button is-text is-large has-text-white" data-trigger>
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <style>
+        #header-image {
+            transition: all 0.5s ease-in-out;
+            position: fixed;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            background-position: center;
+            
+                background-image: url(https://images.unsplash.com/photo-1543946602-8496af5aaa53);
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+
+        body.darken-mode {
+            background-color: rgba(255, 255, 255, 0.3) !important;
+        }
+
+        body.darken-mode {
+            background-color: rgba(255, 255, 255, 0.3) !important;
+        }
+            
+        body.darken-mode .title {
+        }
+
+        body.darken-mode .subtitle {
+        }
+
+        body.darken-mode i.fas {
+        }
+
+        body.darken-mode #header-image {
+        }
+
+        body.darken-mode {}
+
+        body.darken-mode #header-image:before {
+            background: rgba(0,0,0, 0.8);
+        }
+
+        body.book-mode {
+            background-color: #fff !important;
+        }
+            
+        body.book-mode #blog-post-hero .title {
+            color: black !important;
+        }
+
+        body.book-mode #blog-post-hero .subtitle {
+            color: black !important;
+        }
+
+        body.book-mode i.fas {
+            color: black !important;
+        }
+
+        body.book-mode #header-image {
+            background-image: none;
+            background-color: white !important;
+        }
+
+        body.book-mode #header-image:before {
+            background-color: transparent;
+        }
+
+        body.darken-mode #footer {
+            background-color: transparent;
+            z-index: 1000;
+        }
+
+        body.book-mode #footer {
+            background-color: transparent;
+            z-index: 1000;
+        }
+
+        #header-image:before {
+            transition: all 0.5s ease-in-out;
+            position: absolute;
+            content: " ";
+            top: 0;
+            background: rgba(0,0,0, 0.5);
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    
+    <section class="hero is-medium" id="blog-post-hero">
+        <div class="hero-body">
+            <span class="container has-text-centered">
+                <h1 class="title is-2 has-text-white">
+                    Lessons learned from jerks in the Internet
+                </h1>
+                
+                    <h2 class="subtitle  has-text-white" style="margin-top: -0.8rem;">
+                        A story of dragons, denial of service attacks, and waking up at 3 AM.
+                    </h2>
+                
+                <center><a data-size="large" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+            </div>
+        </div>
+    </section>
+    
+    <div class="blog-post-container container">
+        <div class="card blog-content-card">
+            <div class="card-content" id="blog-post">
+                
+                <div class="content" id="blog-content">
+                    
+                        
+
+<p>It was a dark, foggy night. In a cozy bed, I laid fast asleep after a long day of university lectures and late-night coding.</p>
+
+<p>Suddenly, a long, annoying noise shook me off my sleep. Crawling to the other side of my bed, I reach my desk and clumsily grab my phone, in an attempt to <em>shut that shit down</em>.</p>
+
+<p>It was a call. A call from a <a href="https://getmakerlog.com">Makerlog</a> member.</p>
+
+<p>When I saw that caller ID, I instantly knew <em>something was going down</em>. And it was not good.</p>
+
+<p><img src="https://i.imgur.com/Nt4vukp.png" alt="uh oh" /></p>
+
+<p>It was the beginning of a 2 hour journey into the world of distributed denial-of-service attacks.</p>
+
+<h3 id="the-doctor-arrives-half-asleep">The doctor arrives, half-asleep</h3>
+
+<p>From the call alone and the number of people attempting to reach me on various social media, it was easy to provide an initial diagnosis. I knew exactly what happened to the patient: a simple spammer attack with a sprinkle of server crashing.</p>
+
+<p>It was easy to arrive to this initial conclusion. Makerlog&rsquo;s API is very open and it was easy for people to &ndash; accidentally or purposefully &ndash; spam the server with tasks while fooling around.</p>
+
+<p>These attacks would be promptly (and easily) shut down. It was a matter of entering the admin panel, revoking a few tokens, and banning the IP. One of these attacks had happened the day before - no biggie.</p>
+
+<p>Still in bed, I decided to enter the admin panel, sprinkle some ban hammer goodness, and go back to sleep.</p>
+
+<p>Then came the first surprise.</p>
+
+<h3 id="wth-moment-1">WTH moment #1</h3>
+
+<p>I couldn&rsquo;t load the admin panel. Nothing was loading. Not even the simple <code>/health</code> endpoint. This was extremely strange, as Gunicorn + Uvicorn is a super stable combination and even previous spam attacks never really broke the site.</p>
+
+<p>I was essentially mitigating while blind on my phone, as I had no access to the backend API panel.</p>
+
+<p>I asked the community if there were any spam tasks before the site went down, and to my surprise, there were none. Nobody had spammed anything.</p>
+
+<p><img src="https://i.imgur.com/sfkKfoH.png" alt="fu" /></p>
+
+<p>This was different.</p>
+
+<p>I began lifting the covers and turning on the lights (and coincidentally waking up my poor, poor fish).</p>
+
+<h3 id="a-reboot-will-do">A reboot will do</h3>
+
+<p>I didn&rsquo;t suspect much yet, and I thought that perhaps the server bugged out. Maybe it was a memory leak.</p>
+
+<p>I was waking up a little more, so I sat down on my bed and opened up JuiceSSH on my phone to try and make sense of the situation.</p>
+
+<p>Makerlog runs on <a href="http://dokku.viewdocs.io/dokku/">Dokku</a>, so my first reaction was to reboot the affected app containers. The infrastructure is very neatly managed by Dokku&rsquo;s abstraction over Docker, so it was easy to prompt a clean reboot (ignore the errors, I was asleep!):</p>
+
+<p><img src="https://i.imgur.com/9o0IifU.png" alt="errors and all" /></p>
+
+<p>After a while, the containers rebooted. I was finally able to access the admin panel, and the attack was mitigated.</p>
+
+<p>&hellip;sike.</p>
+
+<p>It didn&rsquo;t work, and the problems continued. I proceeded to reboot the whole server, which didn&rsquo;t work either.</p>
+
+<p>I opened the error logs to try and find any issues inside the containers. It was only showing a repeated stream of async/await coroutine errors, so I believed that was the problem.</p>
+
+<p><img src="https://i.imgur.com/hWa8ISp.png" alt="async" /></p>
+
+<p>I restarted the containers several more times to get rid of my diagnosed process deadlock, to no avail.</p>
+
+<p><img src="https://i.imgur.com/fmR1kKM.png" alt="u" /></p>
+
+<p>As Captain Sully said in his NTSB hearing&hellip; <strong>It was time to get serious.</strong></p>
+
+<h3 id="errors-errors-and-a-sprinkle-of-eureka">Errors, errors, and a sprinkle of eureka</h3>
+
+<p>Getting out of bed, I opened my laptop, hopped on SSH, and tried to figure out the problem.</p>
+
+<p>I looked at the server log in disbelief. I had no idea what was going on.</p>
+
+<p>After taking a look at the errors a few times, I concluded on <em>server error</em>. Makerlog runs on Uvicorn, which uses ASGI, so it is prone to bugs related to async/await. The error was about some coroutine thing, so I went down that path.</p>
+
+<p>I began looking over the async code on the site, trying to find any errors. I surgically examined the WebSockets and database query code to no avail.</p>
+
+<p>Then suddenly&hellip; I was reminded of a possibility I had completely forgotten.</p>
+
+<p><strong>What if someone was pulling off a good ol&rsquo; DDOS?</strong></p>
+
+<p><img src="https://i.imgur.com/SyxX3m9.png" alt="oh shoot" /></p>
+
+<p>It wouldn&rsquo;t be a new thing. I&rsquo;ve previously mitigated attacks related to people spamming the tasks endpoint. Makerlog, although it&rsquo;s around 2.3k members, is still a relatively small and lowkey service. I don&rsquo;t draw too much trouble.</p>
+
+<h3 id="it-was-a-ddos">It was a DDoS</h3>
+
+<p>I was wrong. After taking a look at the Nginx logs, the situation was clear. A user was attacking our site and repeatedly pinging the <code>/products/</code> endpoint.</p>
+
+<p><img src="https://i.imgur.com/lEsbwgP.jpg" alt="nginx log" /></p>
+
+<p>The exploit was simple - due to legacy reasons, Makerlog&rsquo;s <code>/products/</code> API endpoint never really used pagination. Since launch, I never expected Makerlog to grow to its current size, so I never really bothered to add pagination.</p>
+
+<p>Therefore, when requesting the endpoint, a massive SQL request would be made, freezing the server while the items were fetched + serialized into JSON (a Django REST Framework performance weak point).</p>
+
+<p>It was perfect. Using this method, they could essentially max out the CPU and crash the entire server (which hosts other in-development apps too).</p>
+
+<p>I focused on adding features and shiny new things rather than fixing fundamental parts of the service. Which is fine&hellip; Until they bite you back in the ass.</p>
+
+<p>And today they did.</p>
+
+<h3 id="mitigation-attempt-1-the-ban-hammer">Mitigation attempt #1: the ban hammer</h3>
+
+<p>So as any panicking citizen does when they receive a DDoS on their production server, I picked up the mighty ol&rsquo; ban hammer, wielding its lightweight yet strong titanium alloy build and utilizing it to kick some ass.</p>
+
+<p>I used Ol&rsquo; Reliable and banned the offending IP addresses.</p>
+
+<p><center>
+    <div style="width: 50%">
+    <img src="https://i.imgflip.com/2xmca3.jpg" />
+    </div>
+</center></p>
+
+<h4 id="verdict-didn-t-work">Verdict: didn&rsquo;t work</h4>
+
+<p>Wait a moment&hellip; That didn&rsquo;t work. I would still see requests from a couple of IPs I banned, even after checking UFW several times. The attack kept coming in. The nightmare didn&rsquo;t end.</p>
+
+<p><img src="https://i.imgur.com/6mnXdw5.png" alt="of" /></p>
+
+<h3 id="mitigation-attempt-2-pushing-hotfixes">Mitigation attempt #2: pushing hotfixes</h3>
+
+<p>After a bit more thinking, I figured that the best solution at this time was to stop the vulnerability in its tracks. Pushing a new API version with pagination enabled would essentially stop the endpoint from consuming so much CPU and defuse the attack, at the expense of a few broken API apps and the website products page not working.</p>
+
+<p>So knowing it was an easy fix, I quickly patched up the Makerlog <code>/products/</code> endpoint, pushed to Dokku, and patiently waited for the deploy to finish.</p>
+
+<p><img src="https://i.imgur.com/wksJKdJ.jpg" alt="source" /></p>
+
+<h4 id="verdict-it-worked">Verdict: it worked!</h4>
+
+<p>After this small change, the server&rsquo;s load reduced significantly and the site was momentarily back up.</p>
+
+<p><img src="https://i.imgur.com/OxHe4r0.jpg" alt="stats" /></p>
+
+<p>This victory would be short-lived, however.</p>
+
+<h3 id="mitigation-attempt-3-moving-to-cloudflare">Mitigation attempt #3: Moving to CloudFlare</h3>
+
+<p>Simultaneously, I decided to try and move to CloudFlare after several recommendations from the community. The transition was quick and I was able to set the API to &ldquo;Under Attack&rdquo; mode to require challenge verification to suspicious addresses.</p>
+
+<h4 id="verdict-it-worked-1">Verdict: it worked!</h4>
+
+<p>CloudFlare is a hard one to judge empirically, but from what I see in my analytics post-attack, I can say it definitely helped mitigate the attack and ease load on the server. Huge props to CloudFlare - your free plan is great!</p>
+
+<p><img src="https://i.imgur.com/rD7vKsC.png" alt="cloudflare blocks" /></p>
+
+<h3 id="mitigated-we-re-safe-right">Mitigated! We&rsquo;re safe! Right?</h3>
+
+<p>So the attack is now mitigated, things are fine&hellip; right?</p>
+
+<p>No. After a while, I noticed something very interesting while watching the Nginx logs&hellip; They were getting nervous. They began crawling ALL API endpoints, looking for exploitable ones&hellip;</p>
+
+<p>And they found one. The discussions endpoint suffered the same problem, but mitigating it (now that the cause was known) was easy. I pushed a hotfix and essentially the attack stopped.</p>
+
+<p><img src="https://i.imgur.com/JYKb6pm.jpg" alt="attack" /></p>
+
+<h3 id="relief">Relief</h3>
+
+<p>The attacker gave up, and I could finally breathe.</p>
+
+<p>In total, the attack lasted around 2 hours, from 3 AM to 5 AM my time.</p>
+
+<h2 id="why-did-this-happen">Why did this happen?</h2>
+
+<p>This whole problem was caused by my inexperience, really.</p>
+
+<p>Makerlog, since the start, has been very open. The API has always welcomed all developers to build upon it, which has been a double-edged sword - in one hand, it created a passionate community of developers making awesome tools for Makerlog. In the other, it allowed for attacks like this to happen.</p>
+
+<p>Makerlog, due to its nature of openness, relies heavily on trust upon its users and heavy moderation. I trust my users completely. It was not the first time someone actively exploited the API to cause harm, but it was the first real serious attempt at lasting damage.</p>
+
+<p><strong>The trust factor wasn&rsquo;t the only cause. I was reluctant to fix these pagination issues because I prioritized direction and vision over improving the status quo.</strong></p>
+
+<p><strong>I was wrong.</strong></p>
+
+<p>With growth also come the assholes, and it&rsquo;s time to take another approach.</p>
+
+<h3 id="lessons-learned">Lessons learned</h3>
+
+<p>It&rsquo;s time for a new approach. Today, I took a few steps to mitigate these attacks in the future.</p>
+
+<div class="columns">
+    <div class="column">
+        <h5>Things I will do/did:</h5>
+        <ol>
+            <li>Prioritize bugfixes over new features.</li>
+            <li>Implement new throttles & access-control features to prevent these attacks.</li>
+            <li>Employ a new approach at API security, moving from the trust-first model into a precaution-first one.</li>
+        </ol>
+    </div>
+    <div class="column">
+        <h5>Things I will NOT do:</h5>
+        <ol>
+            <li>Lock down the API excessively - our dev community is very valuable!</li>
+            <li>Handle these attacks lightly.</li>
+            <li>Let the terrorists win!</li>
+        </ol>
+    </div>
+</div>
+
+<p>Let&rsquo;s talk about a few of these items in detail.</p>
+
+<h5 id="prioritizing-bug-fixes">Prioritizing bug fixes</h5>
+
+<p>Makerlog has been on a roll recently. I recently rolled out (ha) the Wellness update and we&rsquo;re literally in peak Makerlog.</p>
+
+<p>However, I&rsquo;ve taken an approach that I regret. I prioritized vision over fixing the status quo, and this has led to the attack taking place. I knew that this pagination issue was a problem, but I never patched it because I didn&rsquo;t consider it to be a big deal.</p>
+
+<p>This is also a great moment to reiterate something important: <strong>I always patch any outstanding bugs and exploits immediately</strong> - I value user trust and security too much to let anything terrible happen.</p>
+
+<p><strong>There&rsquo;s never been any severe exploits on Makerlog - most have been access control problems (people editing other&rsquo;s tasks for example, haha). I can count them with one hand.</strong></p>
+
+<p><strong>Your data is safe with me. I value your trust and privacy - let there be no doubt there.</strong></p>
+
+<p>I apologize for this prioritizing problem, and I will make sure these things don&rsquo;t happen again.</p>
+
+<h5 id="implementing-access-control-features">Implementing access control features</h5>
+
+<p>As the user base and reach grows, so does the ratio of jerks to good people.</p>
+
+<p>As stated earlier, Makerlog has always employed a trust-first model regarding API access. This excess user trust lends itself to abuse, and I will be switching to a &ldquo;precaution-first&rdquo; approach.</p>
+
+<p>The dev community for Makerlog is amazing. New Makerlog integrations come out all the time, and it&rsquo;s my favorite thing to witness.</p>
+
+<p>However, after this event, tighter controls will be implemented. I&rsquo;m not locking down the API completely, but throttling and other precautionary measures will be in place to prevent these attacks from happening in the future.</p>
+
+<h2 id="thank-you-s">Thank you&rsquo;s!</h2>
+
+<p>A huge shoutout to friends like <a href="https://twitter.com/jivings">James Ivings</a> and <a href="https://twitter.com/mubaris_nk">Mubaris NK</a> for their help mitigating the attack and figuring out the root cause. And of course, another big thank you to the community for being so supportive even in rough times.</p>
+
+<h2 id="concluding">Concluding</h2>
+
+<p>Last night I discovered there&rsquo;s jerks in the Internet.</p>
+
+<p>I&rsquo;m glad to say <em>we</em>, as a community, conquered.</p>
+
+<p>This is a lesson to be learned from. Let&rsquo;s take a negative event and turn it into a positive learning experience - because this is how people and companies evolve.</p>
+
+<p><strong>Veni, vidi, vici.</strong></p>
+
+                    
+                </div>
+                <hr style="margin-top: 50px;" />
+                <article class="media" id="me-media">
+                        <figure class="media-left is-hidden-touch">
+                            <p class="image is-64x64">
+                                <img class="img-circle" src="https://sergiomattei.com//img/me.jpg">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <h1 class="title is-4">
+                            Thanks for reading!
+                            </h1>
+                            <p class="subtitle is-6">
+                                I'm passionate about maker culture, technology, and life.<br /> Follow me on Twitter to stay in the loop on my latest creations and writings!
+                            </p>
+                            <p>
+                                    <a href="https://twitter.com/matteing?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @matteing</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </p>
+                        </div>
+                    </article>
+            </div>
+        </div>
+
+        
+        
+    </div>
+
+    <script>
+
+        $(document).ready(function() {
+        $('pre').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+        });
+
+        window.onscroll = function() {
+            var body = document.getElementById('body');
+            var header_image = document.getElementById('header-image');
+            if ( window.pageYOffset > 400) { 
+                body.classList.add("book-mode");
+            } else {
+                body.classList.remove("book-mode");
+            }
+        }
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var article = document.getElementById('blog-content');
+            var headings = article.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            headings.forEach(function(heading){
+            if(heading.id){
+                var a = document.createElement('a');
+                a.innerHTML = "🔗";
+                a.href = '#'+heading.id;
+                heading.classList.add("post-permalink")
+                a.classList.add("icon")
+                heading.appendChild(a);
+            }
+            });
+        }, false);
+
+    </script>
+
+            </div>
+        </div>
+    <footer id="footer">
+        <center>
+            <img src="https://sergiomattei.com//img/Arkus-Fatter-Black.png" alt="Sergio Mattei's Logo" />
+        </center>
+    </footer>
+
+
+        <script src="https://sergiomattei.com/js/global.js"></script>
+        <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
+    </body>
+</html>

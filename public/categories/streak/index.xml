@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>streak on Sergio Mattei</title>
+    <link>https://sergiomattei.com/categories/streak/</link>
+    <description>Recent content in streak on Sergio Mattei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2019 23:41:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://sergiomattei.com/categories/streak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A new, healthier chapter for Makerlog</title>
+      <link>https://sergiomattei.com/posts/a-new-healthier-chapter-for-makerlog/</link>
+      <pubDate>Fri, 22 Mar 2019 23:41:14 +0000</pubDate>
+      
+      <guid>https://sergiomattei.com/posts/a-new-healthier-chapter-for-makerlog/</guid>
+      <description>Today I am proud to announce the launch of Makerlog Wellness, a small - yet huge - update I&amp;rsquo;ve been silently working on for the past few weeks. Much thought went into the process of creating this update, and after careful consideration (and tons of pain rewriting the streak algorithm)&amp;hellip; It&amp;rsquo;s finally available for end users!
+Before I continue with the features, we must take a moment to discuss why this update was necessary - in other words, how I discovered that the streak productivity model does not scale.</description>
+    </item>
+    
+  </channel>
+</rss>

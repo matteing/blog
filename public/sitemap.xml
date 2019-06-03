@@ -3,45 +3,114 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mattei.netlify.com/posts/making-in-the-apocalypse/</loc>
+    <loc>https://sergiomattei.com/posts/thoughts-on-benjamin-art/</loc>
+    <lastmod>2019-04-21T10:17:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/posts/</loc>
+    <lastmod>2019-04-21T10:17:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/</loc>
+    <lastmod>2019-04-21T10:17:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/posts/handling-the-jerks/</loc>
+    <lastmod>2019-04-02T18:57:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/posts/a-new-healthier-chapter-for-makerlog/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/categories/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/tags/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/tags/health/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/categories/health/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/tags/makerlog/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/categories/makerlog/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/tags/streak/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/categories/streak/</loc>
+    <lastmod>2019-03-22T23:41:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/posts/makerlog-new-year-roadmap/</loc>
+    <lastmod>2018-11-27T13:56:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/posts/24hr-startup/</loc>
+    <lastmod>2018-11-17T19:06:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sergiomattei.com/posts/making-in-the-apocalypse/</loc>
     <lastmod>2018-11-11T21:32:37-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mattei.netlify.com/posts/what-ive-learned-making-makerlog/</loc>
-    <lastmod>2018-11-11T05:11:22-04:00</lastmod>
+    <loc>https://sergiomattei.com/projects/alphasquare/</loc>
   </url>
   
   <url>
-    <loc>https://mattei.netlify.com/posts/you-are-not-a-product/</loc>
-    <lastmod>2018-11-11T05:08:18-04:00</lastmod>
+    <loc>https://sergiomattei.com/projects/makerlog/</loc>
   </url>
   
   <url>
-    <loc>https://mattei.netlify.com/posts/how-opsbot-simplifies-devops-for-indie-makers/</loc>
-    <lastmod>2018-11-11T03:19:28-04:00</lastmod>
+    <loc>https://sergiomattei.com/projects/opsbot/</loc>
   </url>
   
   <url>
-    <loc>https://mattei.netlify.com/categories/</loc>
+    <loc>https://sergiomattei.com/projects/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mattei.netlify.com/posts/</loc>
-    <lastmod>2018-11-11T21:32:37-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mattei.netlify.com/</loc>
-    <lastmod>2018-11-11T21:32:37-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mattei.netlify.com/tags/</loc>
-    <priority>0</priority>
+    <loc>https://sergiomattei.com/projects/taleship/</loc>
   </url>
   
 </urlset>

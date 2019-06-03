@@ -2,13 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sergio Mattei</title>
-    <link>https://mattei.netlify.com/tags/</link>
+    <link>https://sergiomattei.com/tags/</link>
     <description>Recent content in Tags on Sergio Mattei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2019 23:41:14 +0000</lastBuildDate>
     
-	<atom:link href="https://mattei.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sergiomattei.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>health</title>
+      <link>https://sergiomattei.com/tags/health/</link>
+      <pubDate>Fri, 22 Mar 2019 23:41:14 +0000</pubDate>
+      
+      <guid>https://sergiomattei.com/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>makerlog</title>
+      <link>https://sergiomattei.com/tags/makerlog/</link>
+      <pubDate>Fri, 22 Mar 2019 23:41:14 +0000</pubDate>
+      
+      <guid>https://sergiomattei.com/tags/makerlog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streak</title>
+      <link>https://sergiomattei.com/tags/streak/</link>
+      <pubDate>Fri, 22 Mar 2019 23:41:14 +0000</pubDate>
+      
+      <guid>https://sergiomattei.com/tags/streak/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

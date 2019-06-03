@@ -116,6 +116,7 @@
 
  #header-hero {
      margin-top: 30px;
+     margin-bottom: 50px;
  }
 
  .tint {
@@ -143,7 +144,7 @@
      padding: 0 5px;
      height: 80px;
      width: 80px;
-     background: #FAFAFA url(/assets/img/Arkus-Fatter-Vector.svg) no-repeat scroll center;
+     background: #FAFAFA url(/img/Arkus-Fatter-Vector.svg) no-repeat scroll center;
      background-size: 60%;
      padding: 5px;
      margin-left: -40px;
@@ -183,7 +184,7 @@
      background-color: white;
      color: gray;
      padding: 40px;
-     margin-top: 100px;
+     margin-top: 80px;
      /*border-top-left-radius: 10px;
      border-top-right-radius: 10px;*/
      flex-shrink: 0;
@@ -192,7 +193,7 @@
  #footer .column.branded {
      font-family: 'Open Sans', sans-serif;
      text-transform: uppercase;
-     font-weight: 900;
+     font-weight: 700;
      letter-spacing: 1px;
  }
 
@@ -214,7 +215,7 @@
  }
 
  #footer img {
-     width: 50px;
+     width: 60px;
  }
 
  #footer a {
@@ -272,9 +273,11 @@
      height: 200px;
      transition: all .2s ease-in-out;
      cursor: pointer;
-     background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(120deg, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(120deg, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     background: #74ebd5;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(120deg, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(120deg, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
  }
 
  .product-tile:hover {
@@ -288,13 +291,22 @@
      text-align: center;
  }
 
+ .makerlog {
+    background: #67b26f;
+    background: #16a085;
+    background: #11998e;
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: linear-gradient(120deg, #11998e, #38ef7d);
+}
+
  .product-tile.makerlog {
-     background: #67b26f;
-     background: #16a085;
-     background: #11998e;
-     background: -webkit-linear-gradient(120deg, #38ef7d, #11998e);
-     background: -webkit-linear-gradient(bottom, #38ef7d, #11998e);
-     background: linear-gradient(120deg, #38ef7d, #11998e);
+    background: #67b26f;
+    background: #16a085;
+    background: #11998e;
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: -webkit-linear-gradient(120deg, #11998e, #38ef7d);
+    background: linear-gradient(120deg, #11998e, #38ef7d);
  }
 
  .product-tile.makerlog>div>.title {
@@ -322,7 +334,7 @@
      color: white !important;
  }
 
-.product-tile.taleship {
+.taleship {
     background-image: linear-gradient(141deg, #ff0561 0%, #ff3860 71%, #ff5257 100%);
 }
 
@@ -364,15 +376,14 @@
      padding: 50px;
      display: flex;
      align-items: center;
-     background-position: center;
-     background-size: cover;
+     background-position: center !important;
+     background-size: cover !important;
      color: white;
      cursor: pointer;
      position: relative;
      background: #acb6e5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
  .blog-tile:before {
@@ -490,42 +501,51 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 
 #blog-post-hero > .hero-body {
     padding-bottom: 6rem;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .blog-content-card {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 10rem;
+    margin-left: 10rem;
     margin-bottom: 20px;
 }
 
 .card {
     border-radius: 10px !important; 
     box-shadow: none !important;
+    display: flex;
+    justify-content: center;
 }
 
 #blog-post {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    font-family: "Archivo", sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
-    padding: 50px 100px 50px 100px;
+    font-family: 'Merriweather', 'Georgia', serif;
+    font: 100%/2 'Merriweather','Georgia',serif;
+    line-height: 2rem;
+    padding: 50px 0 50px 0;
+}
+
+#blog-post {
+    max-width: 36em;
+    min-width: 36em;
 }
 
 .blog-post-container {
-    margin-bottom: 150px;
 }
 
-#blog-post h1,
-#blog-post h2,
-#blog-post h3,
-#blog-post h4,
-#blog-post h5,
-#blog-post h6 {
+#blog-post .content h1,
+#blog-post .content h2,
+#blog-post .content h3,
+#blog-post .content h4,
+#blog-post .content h5,
+#blog-post .content h6 {
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 15px;
+    line-height: 1.1;
 }
+/*
 
 #blog-post > .content:first-letter {
     float: left;
@@ -535,6 +555,7 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
     padding-right: 8px;
     padding-left: 3px;
   }
+  */
 
 #blog-post {}
 
@@ -563,9 +584,7 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
     color: inherit;
 }
 
-
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     #nav.menu--active {
         width: 100vw;
     }
@@ -573,12 +592,36 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
     .blog-content-card {
         margin-right: 0px;
         margin-left: 0px;
-        border-radius: 0px !important;
     }
 
     #blog-post {
-        padding: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-content-card {
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 0px !important;
+    }
+
+    #blog-post-hero .title {
+        font-size: 2rem;
+    }
+
+    #blog-post {
+        font-size: 16px;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding: 5%;
+    }
+
+    #header-hero .title {
+        font-size: 1.2rem;
+        padding-left: 10px;
     }
 }
 
@@ -589,6 +632,217 @@ background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, F
 
 .content img {
     border-radius: 10px;
-    margin: 10px;
     width: 100%;
+}
+
+.product-hero {
+    border-radius: 10px;
+}
+
+.product-hero.makerlog .title {
+    color: white;
+}
+
+.product-hero.makerlog .subtitle {
+    color: white;
+}
+
+
+ .product-tile.makerlog>div>.title {
+     color: white !important;
+     font-family: "Poppins", sans-serif !important;
+     font-weight: 700;
+ }
+
+ .opsbot {
+    background: rgb(38, 65, 143);
+    background: linear-gradient(135deg, rgba(38, 65, 143, 1) 0%, rgba(92, 107, 192, 1) 100%);
+}
+
+.alphasquare {
+    background-image: linear-gradient(141deg, #04a6d7 0%, #209cee 71%, #3287f5 100%);
+    color: white;
+}
+
+.dark-product .title {
+    color: white !important;
+}
+
+.dark-product .content {
+    color: white !important;
+}
+
+.dark-product h6 {
+    color: white !important;
+}
+
+.dark-product h4 {
+    color: white !important;
+}
+
+.dark-product h5 {
+    color: white !important;
+}
+
+.dark-product h3 {
+    color: white !important;
+}
+
+.dark-product h2 {
+    color: white !important;
+}
+
+.dark-product h1 {
+    color: white !important;
+}
+
+
+.dark-product .heading {
+    color: white !important;
+}
+
+.dark-product .subtitle {
+    color: white !important;
+}
+
+.icon-tile.twitter {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(120deg, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(120deg, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon-tile > div > svg {
+    color: white !important;
+    font-size: 60px;
+}
+
+.icon-tile.email {
+    background: #EC6F66;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(120deg, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(120deg, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.project-hero {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.makerlog .product-name {
+    color: white !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700;
+}
+
+.opsbot .product-name {
+    color: white !important;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 700;
+}
+
+.alphasquare .product-name {
+    color: white !important;
+    font-family: "Lobster Two", sans-serif !important;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.taleship .product-name {
+    color: white !important;
+    font-family: "Lobster Two", sans-serif !important;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.post-permalink {
+}
+
+.post-permalink > .icon {
+    display: none;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.post-permalink:hover > .icon {
+    display: inline;
+}
+
+/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b294bb;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+pre {
+    border-radius: 8px;
 }
