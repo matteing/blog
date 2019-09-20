@@ -17,7 +17,7 @@ I will kick this off by explaining a couple of things, in the interest of full t
 
 1.  This is not meant to raise pitchforks. Put them down.
 2.  If you're building side projects for fun rather than trying to build a business, this doesn't really apply to you.
-3.  This has little to do with Makerlog: this is my opinion rather than my product's.
+3.  This has nothing to do with Makerlog: this is my opinion rather than my product's.
 
 Alright, now that we've got these things out of the way, let's go.
 
