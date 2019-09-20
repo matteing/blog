@@ -23,7 +23,7 @@ Alright, now that we've got these things out of the way, let's go.
 
 ## A bit of context
 
-On September 18, controversy began at the Ramadan Makers community on Telegram. A maker on Ramadan Makers launched a product on a popular product discovery site, gathering a decent amount of upvotes from the community. However, we noticed it never really made the homepage even after decent community attention. In contrast, we noticed other products with fewer upvotes managed a feature, even though user engagement was little.
+On September 18, one of the makers in our community (or one of the makers in Ramadan Makers) launched a product on a popular product discovery site, gathering a decent amount of upvotes from the community. However, we noticed it never really made the homepage even after decent community attention. In contrast, we noticed other products with fewer upvotes managed a feature, even though user engagement was little.
 
 We proceeded to discuss this heavily on a Ramadan Makers video call with several members of the community, and arrived to the conclusion that a possible algorithm change caused the product to never reach the homepage. To be fully honest here, this is fine: we don't expect makers to get featured all the time.
 
