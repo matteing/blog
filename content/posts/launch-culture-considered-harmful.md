@@ -9,6 +9,8 @@ tagline: "My notes on a series of harmful misconceptions in the maker community.
 cover: "https://images.unsplash.com/photo-1541185933-55ad9888f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 ---
 
+These are my notes on a series of what I consider harmful misconceptions in the maker community. <!--more-->
+
 ## Preface
 
 I will kick this off by explaining a couple of things, in the interest of full transparency, just as I did on my thread:
