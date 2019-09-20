@@ -4,7 +4,7 @@ date: 2019-09-20T17:49:44-04:00
 tags: ["culture", "makers"]
 categories: ["culture", "makers"]
 
-draft: true
+draft: false
 tagline: "My notes on a series of harmful misconceptions in the maker community."
 cover: "https://images.unsplash.com/photo-1541185933-55ad9888f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
 ---
