@@ -142,6 +142,6 @@ I honestly think this is an education problem. We've pushed and glorified the wr
 
 Ultimately these ideas, misconceptions, don't help makers become more successful. They are detrimental to our core philosophy of building sustainable businesses, and we must stop spreading them.
 
-These are just my opinions, as a passionate member of the community.
+These are just my opinions as a passionate member of the community.
 
 As always, I hope you learn something. 💚
